@@ -1,21 +1,34 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
+import SpellCard from './components/SpellCard.vue'
+import './style.css'
+import spellList from './assets/cleric.json'
+import { ref } from 'vue';
+import SearchForm from './components/SearchForm.vue';
+import { Spell } from './types/spell';
+
+const byTextContains = (text: string, contains: string) => text.toLowerCase().includes(contains.toLowerCase())
+const byName = (spell: Spell, name: string) => byTextContains(spell.name, name);
+const byLevel = (spell: Spell, level: number | null) => level ? spell.level == level : true;
+const byDescription = (spell: Spell, description: string) => byTextContains(spell.description, description);
+
+function search(form: { name: string, level: number | null, description: string}) {
+	spells.value = spellList.filter(s => byName(s, form.name) && byLevel(s, form.level) && byDescription(s, form.description))
+}
+
+const spells = ref(spellList)
+
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+	<div class="p-6">
+		<SearchForm @search="search" />
+	</div>
+	<ul class="flex flex-wrap">
+		<li class="w-full md:w-1/2 lg:w-1/3 p-5" v-for="(spell, i) in spells" :key="i + spell.name">
+			<SpellCard :spell="spell" />
+		</li>
+	</ul>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
