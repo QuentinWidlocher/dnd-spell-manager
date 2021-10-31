@@ -1,6 +1,6 @@
 <template>
-	<div v-if="spell" :class="[spell.selected && 'border-blue-500', 'border-4 border-transparent rounded-2xl p-1 w-full h-full']">
-		<article class="p-1 w-full h-full border rounded-2xl shadow-lg cursor-pointer">
+	<div v-if="spell" :class="[spell.selected && 'border-blue-500', 'border-4 border-transparent rounded-2xl p-px w-full h-full select-none']">
+		<article class="p-1 w-full h-full border rounded-2xl shadow-md cursor-pointer">
 		<div class="border p-3 rounded-xl h-full">
 			<div class="flex items-center">
 				<h1 class="mr-5 font-bold text-xl text-red-800 border-2 rounded-full border-red-800 p-3">
@@ -40,7 +40,7 @@
 					</div>
 				</li>
 			</ul>
-			<p v-html="spell.description"></p>
+			<p class="h-80 overflow-y-auto" v-html="spell.description"></p>
 		</div>
 	</article>
 	</div>
@@ -59,7 +59,7 @@ const { spell } = defineProps({
 
 <style>
 article {
-	background: url("https://i.pinimg.com/originals/a2/d2/d4/a2d2d404c591e0cc4c5da4d6e4585e0d.jpg");
+	background: url("/card-bg.jpg");
 }
 
 article > div {

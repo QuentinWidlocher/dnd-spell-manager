@@ -17,14 +17,14 @@
         </div>
 
         <div class="ml-auto flex space-x-3 p-3 w-full sm:w-auto">
-            <button v-if="touched" type="button" @click="clear()" class=" px-3 flex-grow py-1 rounded border border-blue-500 text-blue-500 hover:bg-blue-700 hover:text-white">Clear</button>
+            <button type="button" @click="clear()" class=" px-3 flex-grow py-1 rounded border border-blue-500 text-blue-500 hover:bg-blue-700 hover:text-white">Clear</button>
             <button type="submit" class="flex-grow px-3 py-1 rounded bg-blue-500 text-white hover:bg-blue-700">Search</button>
         </div>
     </div>
 </form>
 </template>
 <script setup lang="ts">
-import { computed, ref } from 'vue';
+import { ref } from 'vue';
 
 const defaultForm = {
             name: '',
@@ -37,8 +37,6 @@ const form = ref<{
             level: number | null,
             description: string
         }>({...defaultForm})
-
-const touched = computed(() => form.value.name != defaultForm.name || form.value.level != defaultForm.level || form.value.description != defaultForm.description)
 
 const emit = defineEmits(['search']);
 

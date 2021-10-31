@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import SpellCard from './components/SpellCard.vue'
+import MobileSelect from './MobileSelect.vue'
+import DesktopSelect from './DesktopSelect.vue'
 import './style.css'
 import spellList from './assets/cleric.json'
-import { ref } from 'vue';
-import SearchForm from './components/SearchForm.vue';
+import { computed, onMounted, ref } from 'vue';
 import { Spell } from './types/spell';
 
 const byTextContains = (text: string, contains: string) => text.toLowerCase().includes(contains.toLowerCase())
@@ -21,17 +21,24 @@ function selectSpell(spell: Spell) {
 	spell.selected = !spell.selected
 }
 
+const isDesktop = ref(false);
+
+onMounted(() => {
+	isDesktop.value = window.innerWidth > 768
+	window.addEventListener('resize', () => {
+		isDesktop.value = window.innerWidth > 768
+  })
+})
+
 </script>
 
 <template>
-	<div class="p-6">
-		<SearchForm @search="search" />
-	</div>
-	<ul class="flex flex-wrap">
-		<li class="w-full md:w-1/2 lg:w-1/3 p-2" v-for="(spell, i) in spells" :key="i + spell.name">
-			<SpellCard @click="selectSpell(spell)" :spell="spell" />
-		</li>
-	</ul>
+	<template v-if="isDesktop">
+		<DesktopSelect :spells="spells" @search="search" @select="selectSpell"></DesktopSelect>
+	</template>
+	<template v-else>
+		<MobileSelect :spells="spells" @search="search" @select="selectSpell"></MobileSelect>
+	</template>
 </template>
 
 <style>
