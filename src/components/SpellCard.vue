@@ -1,5 +1,6 @@
 <template>
-	<article v-if="spell" class="p-1 w-full h-full border rounded-2xl shadow-lg">
+	<div v-if="spell" :class="[spell.selected && 'border-blue-500', 'border-4 border-transparent rounded-2xl p-1 w-full h-full']">
+		<article class="p-1 w-full h-full border rounded-2xl shadow-lg cursor-pointer">
 		<div class="border p-3 rounded-xl h-full">
 			<div class="flex items-center">
 				<h1 class="mr-5 font-bold text-xl text-red-800 border-2 rounded-full border-red-800 p-3">
@@ -42,18 +43,17 @@
 			<p v-html="spell.description"></p>
 		</div>
 	</article>
+	</div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import {Spell} from '../types/spell'
 
-import { defineComponent, PropType } from 'vue'
+import { PropType } from 'vue'
 
-export default defineComponent({
-  props: {
-      spell: Object as PropType<Spell>
-  }
-})
+const { spell } = defineProps({
+      spell: Object as PropType<Spell>,
+  })
 
 </script>
 

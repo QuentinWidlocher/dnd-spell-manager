@@ -1,4 +1,5 @@
 [{
+        "uuid": "4c1f036e-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Guidance",
         "type": "Divination cantrip",
@@ -11,6 +12,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-16-29.png"
     },
     {
+        "uuid": "4c1f0594-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Light",
         "type": "Evocation cantrip",
@@ -23,6 +25,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Fire_Fly.jpg"
     },
     {
+        "uuid": "4c1f0684-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Mending",
         "type": "Transmutation cantrip",
@@ -35,6 +38,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Earth_PetrifyingTouch.jpg"
     },
     {
+        "uuid": "4c1f08b4-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Resistance",
         "type": "Abjuration cantrip",
@@ -47,6 +51,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Earth_Fortify.jpg"
     },
     {
+        "uuid": "4c1f097c-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Sacred Flame",
         "type": "Evocation cantrip",
@@ -59,6 +64,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Fire_FlareStart.jpg"
     },
     {
+        "uuid": "4c1f0a3a-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Spare the Dying",
         "type": "Necromancy cantrip",
@@ -71,6 +77,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Warrior_HelpingHand.jpg"
     },
     {
+        "uuid": "4c1f0ca6-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Thaumaturgy",
         "type": "Transmutation cantrip",
@@ -83,6 +90,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph_apothesis-icon.png"
     },
     {
+        "uuid": "4c1f0d6e-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Toll the Dead",
         "type": "Necromancy cantrip",
@@ -95,6 +103,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Source_CreateUndead.jpg"
     },
     {
+        "uuid": "4c1f0e2c-3a2d-11ec-8d3d-0242ac130003",
         "level": 0,
         "name": "Word of Radiance",
         "type": "Evocation cantrip",
@@ -107,6 +116,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-17-10.png"
     },
     {
+        "uuid": "4c1f0eea-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Animal Friendship",
         "type": "1st level Enchantment",
@@ -120,6 +130,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-11-30.png"
     },
     {
+        "uuid": "4c1f0f9e-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Bane",
         "type": "1st level Enchantment",
@@ -133,6 +144,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare_challenge-icon.png"
     },
     {
+        "uuid": "4c1f1052-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Bless",
         "type": "1st level Enchantment",
@@ -146,6 +158,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Earth_BlessTarget.jpg"
     },
     {
+        "uuid": "4c1f1106-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Burning Hands",
         "type": "1st level Evocation",
@@ -159,6 +172,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_spontaneous_combustion-icon.png"
     },
     {
+        "uuid": "4c1f11c4-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Ceremony (ritual)",
         "type": "1st level Abjuration",
@@ -171,6 +185,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Source_TargetedCurse.jpg"
     },
     {
+        "uuid": "4c1f13ea-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Charm Person",
         "type": "1st level Enchantment",
@@ -184,6 +199,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/polymorph_apothesis-icon.png"
     },
     {
+        "uuid": "4c1f14a8-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Command",
         "type": "1st level Enchantment",
@@ -197,6 +213,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Fire_BoostPerception.jpg"
     },
     {
+        "uuid": "4c1f1566-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Create or Destroy Water",
         "type": "1st level Transmutation",
@@ -210,6 +227,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Water_Rain.jpg"
     },
     {
+        "uuid": "4c1f1610-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Cure Wounds",
         "type": "1st level Evocation",
@@ -223,6 +241,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_healing_ritual-icon.png"
     },
     {
+        "uuid": "4c1f16c4-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Detect Evil and Good",
         "type": "1st level Divination",
@@ -235,6 +254,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_burn_my_eyes-icon.png"
     },
     {
+        "uuid": "4c1f1778-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Detect Magic (ritual)",
         "type": "1st level Divination",
@@ -247,6 +267,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Source_TargetedCurse.jpg"
     },
     {
+        "uuid": "4c1f182c-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Detect Poison and Disease",
         "type": "1st level Divination",
@@ -259,6 +280,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer_siphon_poison-icon.png"
     },
     {
+        "uuid": "4c1f18e0-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Disguise Self",
         "type": "1st level Illusion",
@@ -271,6 +293,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Air_NetherSwap.jpg"
     },
     {
+        "uuid": "4c1f1b06-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Divine Favor",
         "type": "1st level Evocation",
@@ -283,6 +306,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Warrior_PowerAttack.jpg"
     },
     {
+        "uuid": "4c1f1c82-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Faerie Fire",
         "type": "1st level Evocation",
@@ -295,6 +319,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_mark-icon.png"
     },
     {
+        "uuid": "4c1f1d7c-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "False Life",
         "type": "1st level Necromancy",
@@ -308,6 +333,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_infect-icon.png"
     },
     {
+        "uuid": "4c1f1eda-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Fog Cloud",
         "type": "1st level Conjuration",
@@ -321,6 +347,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Fire_Smokescreen.jpg"
     },
     {
+        "uuid": "4c1f1fca-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Guiding Bolt",
         "type": "1st level Evocation",
@@ -334,6 +361,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Air_LightningStrike.jpg"
     },
     {
+        "uuid": "4c1f2092-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Healing Word",
         "type": "1st level Evocation",
@@ -347,6 +375,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist-16-22.png"
     },
     {
+        "uuid": "4c1f2150-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Identify (ritual)",
         "type": "1st level Divination",
@@ -359,6 +388,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/necromancer_silencing_stare-icon.png"
     },
     {
+        "uuid": "4c1f220e-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Inflict Wounds",
         "type": "1st level Necromancy",
@@ -372,6 +402,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/all_in-attack.png"
     },
     {
+        "uuid": "4c1f2542-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Magic Missile",
         "type": "1st level Evocation",
@@ -385,6 +416,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/hydrosophist_ice_fan-icon.png"
     },
     {
+        "uuid": "4c1f2628-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Protection from Evil and Good",
         "type": "1st level Abjuration",
@@ -397,6 +429,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Water_Regenerate_Minor.jpg"
     },
     {
+        "uuid": "4c1f26e6-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Purify Food and Drink (ritual)",
         "type": "1st level Transmutation",
@@ -409,6 +442,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_cannibalize-icon.png"
     },
     {
+        "uuid": "4c1f2790-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Ray of Sickness",
         "type": "1st level Necromancy",
@@ -422,6 +456,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-16-27.png"
     },
     {
+        "uuid": "4c1f284e-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Sanctuary",
         "type": "1st level Abjuration",
@@ -434,6 +469,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Source_DecayingTouch.jpg"
     },
     {
+        "uuid": "4c1f29ac-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Searing Smite",
         "type": "1st level Evocation",
@@ -447,6 +483,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/pyrokinetic_fire_brand-icon.png"
     },
     {
+        "uuid": "4c1f2a7e-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Shield of Faith",
         "type": "1st level Abjuration",
@@ -459,6 +496,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning_circle_of_protection-icon.png"
     },
     {
+        "uuid": "4c1f2b32-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Speak with Animals (ritual)",
         "type": "1st level Divination",
@@ -471,6 +509,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/summoning-11-30.png"
     },
     {
+        "uuid": "4c1f2d3a-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Thunderwave",
         "type": "1st level Evocation",
@@ -484,6 +523,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/geomancer-14-29.png"
     },
     {
+        "uuid": "4c1f2df8-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Command",
         "type": "1st level Enchantment",
@@ -497,6 +537,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Fire_BoostPerception.jpg"
     },
     {
+        "uuid": "4c1f2eb6-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Heroism",
         "type": "1st level Enchantment",
@@ -510,6 +551,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare-4-29.png"
     },
     {
+        "uuid": "4c1f2f6a-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Heroism",
         "type": "1st level Enchantment",
@@ -523,6 +565,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/warfare-4-29.png"
     },
     {
+        "uuid": "4c1f30fa-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Sanctuary",
         "type": "1st level Abjuration",
@@ -535,6 +578,7 @@
         "picture": "https://divinityoriginalsin.wiki.fextralife.com/file/Divinity-Original-Sin/Skill_Source_DecayingTouch.jpg"
     },
     {
+        "uuid": "4c1f31f4-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Faerie Fire",
         "type": "1st level Evocation",
@@ -547,6 +591,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/huntsman_mark-icon.png"
     },
     {
+        "uuid": "4c1f32b2-3a2d-11ec-8d3d-0242ac130003",
         "level": 1,
         "name": "Sleep",
         "type": "1st level Enchantment",
@@ -560,6 +605,7 @@
         "picture": "https://divinityoriginalsin2.wiki.fextralife.com/file/Divinity-Original-Sin-2/aerotheurge_dazing_bolt-icon.png"
     },
     {
+        "uuid": "4c1f34d8-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Aid",
         "type": "2nd level Abjuration",
@@ -572,6 +618,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f35a0-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Augury (ritual)",
         "type": "2nd level Divination",
@@ -583,6 +630,7 @@
         "castedBy": "Cleric (*)(Knowledge)"
     },
     {
+        "uuid": "4c1f3654-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Barkskin",
         "type": "2nd level Transmutation",
@@ -594,6 +642,7 @@
         "castedBy": "Cleric (Nature)"
     },
     {
+        "uuid": "4c1f3712-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Blindness/Deafness",
         "type": "2nd level Necromancy",
@@ -606,6 +655,7 @@
         "castedBy": "Cleric (*)(Death)"
     },
     {
+        "uuid": "4c1f37d0-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Calm Emotions",
         "type": "2nd level Enchantment",
@@ -617,6 +667,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f3884-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Continual Flame",
         "type": "2nd level Evocation",
@@ -628,6 +679,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f3942-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Enhance Ability",
         "type": "2nd level Transmutation",
@@ -640,6 +692,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f39f6-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Find Traps",
         "type": "2nd level Divination",
@@ -651,6 +704,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f3be0-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Flaming Sphere",
         "type": "2nd level Conjuration",
@@ -663,6 +717,7 @@
         "castedBy": "Cleric (Light)"
     },
     {
+        "uuid": "4c1f3c9e-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Gentle Repose (ritual)",
         "type": "2nd level Necromancy",
@@ -674,6 +729,7 @@
         "castedBy": "Cleric (*)(Grave)"
     },
     {
+        "uuid": "4c1f40d6-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Gust of Wind",
         "type": "2nd level Evocation",
@@ -685,6 +741,7 @@
         "castedBy": "Cleric (Tempest)"
     },
     {
+        "uuid": "4c1f41d0-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Heat Metal",
         "type": "2nd level Transmutation",
@@ -697,6 +754,7 @@
         "castedBy": "Cleric (Forge)"
     },
     {
+        "uuid": "4c1f428e-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Hold Person",
         "type": "2nd level Enchantment",
@@ -709,6 +767,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f4356-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Lesser Restoration",
         "type": "2nd level Abjuration",
@@ -720,6 +779,7 @@
         "castedBy": "Cleric (*)(Life)"
     },
     {
+        "uuid": "4c1f4414-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Locate Object",
         "type": "2nd level Divination",
@@ -731,6 +791,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f47a2-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Magic Weapon",
         "type": "2nd level Transmutation",
@@ -743,6 +804,7 @@
         "castedBy": "Cleric (War)(Forge)(Arcana)"
     },
     {
+        "uuid": "4c1f487e-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Mirror Image",
         "type": "2nd level Illusion",
@@ -754,6 +816,7 @@
         "castedBy": "Cleric (Trickery)"
     },
     {
+        "uuid": "4c1f4932-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Nystul's Magic Aura",
         "type": "2nd level Illusion",
@@ -765,6 +828,7 @@
         "castedBy": "Cleric (Arcana)"
     },
     {
+        "uuid": "4c1f49f0-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Pass Without Trace",
         "type": "2nd level Abjuration",
@@ -776,6 +840,7 @@
         "castedBy": "Cleric (Trickery)"
     },
     {
+        "uuid": "4c1f4aae-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Prayer of Healing",
         "type": "2nd level Evocation",
@@ -788,6 +853,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f4b6c-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Protection from Poison",
         "type": "2nd level Abjuration",
@@ -799,6 +865,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f4c2a-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Ray of Enfeeblement",
         "type": "2nd level Necromancy",
@@ -810,6 +877,7 @@
         "castedBy": "Cleric (Death)(Grave)"
     },
     {
+        "uuid": "4c1f4ce8-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Scorching Ray",
         "type": "2nd level Evocation",
@@ -822,6 +890,7 @@
         "castedBy": "Cleric (Light)"
     },
     {
+        "uuid": "4c1f4ebe-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Shatter",
         "type": "2nd level Evocation",
@@ -834,6 +903,7 @@
         "castedBy": "Cleric (Tempest)"
     },
     {
+        "uuid": "4c1f4f86-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Silence (ritual)",
         "type": "2nd level Illusion",
@@ -845,6 +915,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f5044-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Spike Growth",
         "type": "2nd level Transmutation",
@@ -856,6 +927,7 @@
         "castedBy": "Cleric (Nature)"
     },
     {
+        "uuid": "4c1f5102-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Spiritual Weapon",
         "type": "2nd level Evocation",
@@ -868,6 +940,7 @@
         "castedBy": "Cleric (*)(War)(Life)"
     },
     {
+        "uuid": "4c1f51c0-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Suggestion",
         "type": "2nd level Enchantment",
@@ -879,6 +952,7 @@
         "castedBy": "Cleric (Knowledge)"
     },
     {
+        "uuid": "4c1f5288-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Warding Bond",
         "type": "2nd level Abjuration",
@@ -890,6 +964,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f533c-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Zone of Truth",
         "type": "2nd level Enchantment",
@@ -901,6 +976,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f53fa-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Hold Person",
         "type": "2nd level Enchantment",
@@ -913,6 +989,7 @@
         "castedBy": "Cleric (Order)"
     },
     {
+        "uuid": "4c1f560c-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Zone of Truth",
         "type": "2nd level Enchantment",
@@ -924,6 +1001,7 @@
         "castedBy": "Cleric (Order)"
     },
     {
+        "uuid": "4c1f56d4-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Aid",
         "type": "2nd level Abjuration",
@@ -936,6 +1014,7 @@
         "castedBy": "Cleric (Peace)"
     },
     {
+        "uuid": "4c1f5792-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Warding Bond",
         "type": "2nd level Abjuration",
@@ -947,6 +1026,7 @@
         "castedBy": "Cleric (Peace)"
     },
     {
+        "uuid": "4c1f5846-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "Moonbeam",
         "type": "2nd level Evocation",
@@ -959,6 +1039,7 @@
         "castedBy": "Cleric (Twilight)"
     },
     {
+        "uuid": "4c1f58fa-3a2d-11ec-8d3d-0242ac130003",
         "level": 2,
         "name": "See Invisibility",
         "type": "2nd level Divination",
@@ -970,6 +1051,7 @@
         "castedBy": "Cleric (Twilight)"
     },
     {
+        "uuid": "4c1f59b8-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Animate Dead",
         "type": "3rd level Necromancy",
@@ -982,6 +1064,7 @@
         "castedBy": "Cleric (*)(Death)"
     },
     {
+        "uuid": "4c1f5a80-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Beacon of Hope",
         "type": "3rd level Abjuration",
@@ -993,6 +1076,7 @@
         "castedBy": "Cleric (*)(Life)"
     },
     {
+        "uuid": "4c1f5b48-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Bestow Curse",
         "type": "3rd level Necromancy",
@@ -1005,6 +1089,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f5d5a-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Blink",
         "type": "3rd level Transmutation",
@@ -1016,6 +1101,7 @@
         "castedBy": "Cleric (Trickery)"
     },
     {
+        "uuid": "4c1f5e18-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Call Lightning",
         "type": "3rd level Conjuration",
@@ -1028,6 +1114,7 @@
         "castedBy": "Cleric (Tempest)"
     },
     {
+        "uuid": "4c1f5ed6-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Clairvoyance",
         "type": "3rd level Divination",
@@ -1039,6 +1126,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f5f94-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Create Food and Water",
         "type": "3rd level Conjuration",
@@ -1050,6 +1138,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f6052-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Crusader's Mantle",
         "type": "3rd level Evocation",
@@ -1061,6 +1150,7 @@
         "castedBy": "Cleric (War)"
     },
     {
+        "uuid": "4c1f6110-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Daylight",
         "type": "3rd level Evocation",
@@ -1072,6 +1162,7 @@
         "castedBy": "Cleric (*)(Light)"
     },
     {
+        "uuid": "4c1f61ce-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Dispel Magic",
         "type": "3rd level Abjuration",
@@ -1084,6 +1175,7 @@
         "castedBy": "Cleric (*)(Trickery)(Arcana)"
     },
     {
+        "uuid": "4c1f628c-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Feign Death (ritual)",
         "type": "3rd level Necromancy",
@@ -1095,6 +1187,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f64c6-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Fireball",
         "type": "3rd level Evocation",
@@ -1107,6 +1200,7 @@
         "castedBy": "Cleric (Light)"
     },
     {
+        "uuid": "4c1f6584-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Glyph of Warding",
         "type": "3rd level Abjuration",
@@ -1119,6 +1213,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f6638-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Life Transference",
         "type": "3rd level Necromancy",
@@ -1130,6 +1225,7 @@
         "castedBy": "Cleric (XGE)"
     },
     {
+        "uuid": "4c1f66ec-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Magic Circle",
         "type": "3rd level Abjuration",
@@ -1142,6 +1238,7 @@
         "castedBy": "Cleric (*)(Arcana)"
     },
     {
+        "uuid": "4c1f67aa-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Mass Healing Word",
         "type": "3rd level Evocation",
@@ -1154,6 +1251,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f6868-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Meld into Stone (ritual)",
         "type": "3rd level Transmutation",
@@ -1165,6 +1263,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f691c-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Nondetection",
         "type": "3rd level Abjuration",
@@ -1176,6 +1275,7 @@
         "castedBy": "Cleric (Knowledge)"
     },
     {
+        "uuid": "4c1f69da-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Plant Growth",
         "type": "3rd level Transmutation",
@@ -1187,6 +1287,7 @@
         "castedBy": "Cleric (Nature)"
     },
     {
+        "uuid": "4c1f6c00-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Protection from Energy",
         "type": "3rd level Abjuration",
@@ -1198,6 +1299,7 @@
         "castedBy": "Cleric (*)(Forge)"
     },
     {
+        "uuid": "4c1f6cbe-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Remove Curse",
         "type": "3rd level Abjuration",
@@ -1209,6 +1311,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f6d72-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Revivify",
         "type": "3rd level Necromancy",
@@ -1220,6 +1323,7 @@
         "castedBy": "Cleric (*)(Life)(Grave)"
     },
     {
+        "uuid": "4c1f6e26-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Sending",
         "type": "3rd level Evocation",
@@ -1231,6 +1335,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f6eda-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Sleet Storm",
         "type": "3rd level Conjuration",
@@ -1242,6 +1347,7 @@
         "castedBy": "Cleric (Tempest)"
     },
     {
+        "uuid": "4c1f6f8e-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Speak with Dead",
         "type": "3rd level Necromancy",
@@ -1253,6 +1359,7 @@
         "castedBy": "Cleric (*)(Knowledge)"
     },
     {
+        "uuid": "4c1f704c-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Spirit Guardians",
         "type": "3rd level Conjuration",
@@ -1265,6 +1372,7 @@
         "castedBy": "Cleric (*)(War)"
     },
     {
+        "uuid": "4c1f71fa-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Spirit Shroud",
         "type": "3rd-level necromancy",
@@ -1277,6 +1385,7 @@
         "castedBy": "Cleric (TCE)"
     },
     {
+        "uuid": "4c1f7420-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Tongues",
         "type": "3rd level Divination",
@@ -1288,6 +1397,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f74de-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Vampiric Touch",
         "type": "3rd level Necromancy",
@@ -1300,6 +1410,7 @@
         "castedBy": "Cleric (Death)(Grave)"
     },
     {
+        "uuid": "4c1f7592-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Water Walk (ritual)",
         "type": "3rd level Transmutation",
@@ -1311,6 +1422,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f7650-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Wind Wall",
         "type": "3rd level Evocation",
@@ -1322,6 +1434,7 @@
         "castedBy": "Cleric (Nature)"
     },
     {
+        "uuid": "4c1f770e-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Mass Healing Word",
         "type": "3rd level Evocation",
@@ -1334,6 +1447,7 @@
         "castedBy": "Cleric (Order)"
     },
     {
+        "uuid": "4c1f77c2-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Slow",
         "type": "3rd level Transmutation",
@@ -1345,6 +1459,7 @@
         "castedBy": "Cleric (Order)"
     },
     {
+        "uuid": "4c1f7880-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Beacon of Hope",
         "type": "3rd level Abjuration",
@@ -1356,6 +1471,7 @@
         "castedBy": "Cleric (Peace)"
     },
     {
+        "uuid": "4c1f7934-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Sending",
         "type": "3rd level Evocation",
@@ -1367,6 +1483,7 @@
         "castedBy": "Cleric (Peace)"
     },
     {
+        "uuid": "4c1f7b46-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Aura of Vitality",
         "type": "3rd level Evocation",
@@ -1378,6 +1495,7 @@
         "castedBy": "Cleric (TCE)"
     },
     {
+        "uuid": "4c1f7c04-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Aura of Vitality",
         "type": "3rd level Evocation",
@@ -1389,6 +1507,7 @@
         "castedBy": "Cleric (Twilight)"
     },
     {
+        "uuid": "4c1f7cb8-3a2d-11ec-8d3d-0242ac130003",
         "level": 3,
         "name": "Leomund's Tiny Hut (Ritual)",
         "type": "3rd level Evocation",
@@ -1400,6 +1519,7 @@
         "castedBy": "Cleric (Twilight)"
     },
     {
+        "uuid": "4c1f7d6c-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Arcane Eye",
         "type": "4th level Divination",
@@ -1411,6 +1531,7 @@
         "castedBy": "Cleric (Knowledge)(Arcana)"
     },
     {
+        "uuid": "4c1f7e20-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Banishment",
         "type": "4th level Abjuration",
@@ -1423,6 +1544,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f7ede-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Blight",
         "type": "4th level Necromancy",
@@ -1435,6 +1557,7 @@
         "castedBy": "Cleric (Death)(Grave)"
     },
     {
+        "uuid": "4c1f7f92-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Confusion",
         "type": "4th level Enchantment",
@@ -1447,6 +1570,7 @@
         "castedBy": "Cleric (Knowledge)"
     },
     {
+        "uuid": "4c1f8046-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Control Water",
         "type": "4th level Transmutation",
@@ -1458,6 +1582,7 @@
         "castedBy": "Cleric (*)(Tempest)"
     },
     {
+        "uuid": "4c1f8244-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Death Ward",
         "type": "4th level Abjuration",
@@ -1469,6 +1594,7 @@
         "castedBy": "Cleric (*)(Life)(Grave)"
     },
     {
+        "uuid": "4c1f8302-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Dimension Door",
         "type": "4th level Conjuration",
@@ -1480,6 +1606,7 @@
         "castedBy": "Cleric (Trickery)"
     },
     {
+        "uuid": "4c1f83ac-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Divination (ritual)",
         "type": "4th level Divination",
@@ -1491,6 +1618,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f8460-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Dominate Beast",
         "type": "4th level Enchantment",
@@ -1503,6 +1631,7 @@
         "castedBy": "Cleric (Nature)"
     },
     {
+        "uuid": "4c1f851e-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Fabricate",
         "type": "4th level Evocation",
@@ -1514,6 +1643,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f85dc-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Freedom of Movement",
         "type": "4th level Abjuration",
@@ -1525,6 +1655,7 @@
         "castedBy": "Cleric (*)(War)"
     },
     {
+        "uuid": "4c1f8690-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Grasping Vine",
         "type": "4th level Conjuration",
@@ -1536,6 +1667,7 @@
         "castedBy": "Cleric (Nature)"
     },
     {
+        "uuid": "4c1f874e-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Guardian of Faith",
         "type": "4th level Conjuration",
@@ -1547,6 +1679,7 @@
         "castedBy": "Cleric (*)(Light)(Life)"
     },
     {
+        "uuid": "4c1f896a-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Ice Storm",
         "type": "4th level Evocation",
@@ -1559,6 +1692,7 @@
         "castedBy": "Cleric (Tempest)"
     },
     {
+        "uuid": "4c1f8a28-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Leomund's Secret Chest",
         "type": "4th level Conjuration",
@@ -1570,6 +1704,7 @@
         "castedBy": "Cleric (Arcana)"
     },
     {
+        "uuid": "4c1f8adc-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Locate Creature",
         "type": "4th level Divination",
@@ -1581,6 +1716,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f8b90-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Polymorph",
         "type": "4th level Transmutation",
@@ -1592,6 +1728,7 @@
         "castedBy": "Cleric (Trickery)"
     },
     {
+        "uuid": "4c1f8c3a-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Stone Shape",
         "type": "4th level Transmutation",
@@ -1603,6 +1740,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f8cee-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Stoneskin",
         "type": "4th level Abjuration",
@@ -1614,6 +1752,7 @@
         "castedBy": "Cleric (War)"
     },
     {
+        "uuid": "4c1f8da2-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Wall of Fire",
         "type": "4th level Evocation",
@@ -1626,6 +1765,7 @@
         "castedBy": "Cleric (Light)(Forge)"
     },
     {
+        "uuid": "4c1f8e56-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Compulsion",
         "type": "4th level Enchantment",
@@ -1637,6 +1777,7 @@
         "castedBy": "Cleric (Order)"
     },
     {
+        "uuid": "4c1f9018-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Locate Creature",
         "type": "4th level Divination",
@@ -1648,6 +1789,7 @@
         "castedBy": "Cleric (Order)"
     },
     {
+        "uuid": "4c1f90cc-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Aura of Purity",
         "type": "4th level Abjuration",
@@ -1659,6 +1801,7 @@
         "castedBy": "Cleric (Peace)"
     },
     {
+        "uuid": "4c1f9180-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Otiluke's Resilient Sphere",
         "type": "4th level Evocation",
@@ -1670,6 +1813,7 @@
         "castedBy": "Cleric (Peace)"
     },
     {
+        "uuid": "4c1f9234-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Aura of Life",
         "type": "4th level Abjuration",
@@ -1681,6 +1825,7 @@
         "castedBy": "Cleric (TCE)"
     },
     {
+        "uuid": "4c1f92e8-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Aura of Purity",
         "type": "4th level Abjuration",
@@ -1692,6 +1837,7 @@
         "castedBy": "Cleric (TCE)"
     },
     {
+        "uuid": "4c1f939c-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Aura of Life",
         "type": "4th level Abjuration",
@@ -1703,6 +1849,7 @@
         "castedBy": "Cleric (Twilight)"
     },
     {
+        "uuid": "4c1f9450-3a2d-11ec-8d3d-0242ac130003",
         "level": 4,
         "name": "Greater Invisibility",
         "type": "4th level Illusion",
@@ -1714,6 +1861,7 @@
         "castedBy": "Cleric (Twilight)"
     },
     {
+        "uuid": "4c1f950e-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Animate Objects",
         "type": "5th level Transmutation",
@@ -1726,6 +1874,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f9748-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Antilife Shell",
         "type": "5th level Abjuration",
@@ -1737,6 +1886,7 @@
         "castedBy": "Cleric (Death)(Grave)"
     },
     {
+        "uuid": "4c1f97fc-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Cloudkill",
         "type": "5th level Conjuration",
@@ -1749,6 +1899,7 @@
         "castedBy": "Cleric (Death)"
     },
     {
+        "uuid": "4c1f98a6-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Commune (ritual)",
         "type": "5th level Divination",
@@ -1760,6 +1911,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f995a-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Contagion",
         "type": "5th level Necromancy",
@@ -1771,6 +1923,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f9a0e-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Creation",
         "type": "5th level Illusion",
@@ -1783,6 +1936,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f9ac2-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Dawn",
         "type": "5th level Evocation",
@@ -1794,6 +1948,7 @@
         "castedBy": "Cleric (XGE)"
     },
     {
+        "uuid": "4c1f9b76-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Destructive Wave",
         "type": "5th level Evocation",
@@ -1805,6 +1960,7 @@
         "castedBy": "Cleric (Tempest)"
     },
     {
+        "uuid": "4c1f9c2a-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Dispel Evil and Good",
         "type": "5th level Abjuration",
@@ -1816,6 +1972,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1f9e1e-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Dominate Person",
         "type": "5th level Enchantment",
@@ -1828,6 +1985,7 @@
         "castedBy": "Cleric (Trickery)"
     },
     {
+        "uuid": "4c1f9edc-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Flame Strike",
         "type": "5th level Evocation",
@@ -1840,6 +1998,7 @@
         "castedBy": "Cleric (*)(War)(Light)"
     },
     {
+        "uuid": "4c1f9f90-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Geas",
         "type": "5th level Enchantment",
@@ -1852,6 +2011,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fa044-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Greater Restoration",
         "type": "5th level Abjuration",
@@ -1863,6 +2023,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fa0f8-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Hallow",
         "type": "5th level Evocation",
@@ -1874,6 +2035,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fa1ac-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Hold Monster",
         "type": "5th level Enchantment",
@@ -1886,6 +2048,7 @@
         "castedBy": "Cleric (War)"
     },
     {
+        "uuid": "4c1fa26a-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Holy Weapon",
         "type": "5th level Evocation",
@@ -1897,6 +2060,7 @@
         "castedBy": "Cleric (XGE)"
     },
     {
+        "uuid": "4c1fa31e-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Insect Plague",
         "type": "5th level Conjuration",
@@ -1909,6 +2073,7 @@
         "castedBy": "Cleric (*)(Tempest)(Nature)"
     },
     {
+        "uuid": "4c1fa526-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Legend Lore",
         "type": "5th level Divination",
@@ -1920,6 +2085,7 @@
         "castedBy": "Cleric (*)(Knowledge)"
     },
     {
+        "uuid": "4c1fa5e4-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Mass Cure Wounds",
         "type": "5th level Evocation",
@@ -1932,6 +2098,7 @@
         "castedBy": "Cleric (*)(Life)"
     },
     {
+        "uuid": "4c1fa68e-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Modify Memory",
         "type": "5th level Enchantment",
@@ -1944,6 +2111,7 @@
         "castedBy": "Cleric (Trickery)"
     },
     {
+        "uuid": "4c1fa74c-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Planar Binding",
         "type": "5th level Abjuration",
@@ -1956,6 +2124,7 @@
         "castedBy": "Cleric (*)(Arcana)"
     },
     {
+        "uuid": "4c1fa80a-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Raise Dead",
         "type": "5th level Necromancy",
@@ -1967,6 +2136,7 @@
         "castedBy": "Cleric (*)(Life)(Grave)"
     },
     {
+        "uuid": "4c1fa8be-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Scrying",
         "type": "5th level Divination",
@@ -1978,6 +2148,7 @@
         "castedBy": "Cleric (*)(Light)(Knowledge)"
     },
     {
+        "uuid": "4c1fa97c-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Summon Celestial",
         "type": "5th-level conjuration",
@@ -1990,6 +2161,7 @@
         "castedBy": "Cleric (TCE)"
     },
     {
+        "uuid": "4c1fab7a-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Teleportation Circle",
         "type": "5th level Conjuration",
@@ -2001,6 +2173,7 @@
         "castedBy": "Cleric (Arcana)"
     },
     {
+        "uuid": "4c1fac2e-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Tree Stride",
         "type": "5th level Conjuration",
@@ -2012,6 +2185,7 @@
         "castedBy": "Cleric (Nature)"
     },
     {
+        "uuid": "4c1face2-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Commune (ritual)",
         "type": "5th level Divination",
@@ -2023,6 +2197,7 @@
         "castedBy": "Cleric (Order)"
     },
     {
+        "uuid": "4c1fada0-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Dominate Person",
         "type": "5th level Enchantment",
@@ -2035,6 +2210,7 @@
         "castedBy": "Cleric (Order)"
     },
     {
+        "uuid": "4c1fae54-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Greater Restoration",
         "type": "5th level Abjuration",
@@ -2046,6 +2222,7 @@
         "castedBy": "Cleric (Peace)"
     },
     {
+        "uuid": "4c1faf12-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Rary's Telepathic Bond (ritual)",
         "type": "5th level Divination",
@@ -2057,6 +2234,7 @@
         "castedBy": "Cleric (Peace)"
     },
     {
+        "uuid": "4c1fb0b6-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Circle of Power",
         "type": "5th level Abjuration",
@@ -2068,6 +2246,7 @@
         "castedBy": "Cleric (Twilight)"
     },
     {
+        "uuid": "4c1fb192-3a2d-11ec-8d3d-0242ac130003",
         "level": 5,
         "name": "Mislead",
         "type": "5th level Illusion",
@@ -2079,6 +2258,7 @@
         "castedBy": "Cleric (Twilight)"
     },
     {
+        "uuid": "4c1fb250-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Blade Barrier",
         "type": "6th level Evocation",
@@ -2090,6 +2270,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fb304-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Create Undead",
         "type": "6th level Necromancy",
@@ -2102,6 +2283,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fb3c2-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Find the Path",
         "type": "6th level Divination",
@@ -2113,6 +2295,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fba70-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Forbiddance (ritual)",
         "type": "6th level Abjuration",
@@ -2124,6 +2307,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fbc00-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Harm",
         "type": "6th level Necromancy",
@@ -2135,6 +2319,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fbe80-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Heal",
         "type": "6th level Evocation",
@@ -2147,6 +2332,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fbf52-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Heroes' Feast",
         "type": "6th level Conjuration",
@@ -2158,6 +2344,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc01a-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Planar Ally",
         "type": "6th level Conjuration",
@@ -2169,6 +2356,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc0d8-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "True Seeing",
         "type": "6th level Divination",
@@ -2180,6 +2368,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc196-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Word of Recall",
         "type": "6th level Conjuration",
@@ -2191,6 +2380,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc254-3a2d-11ec-8d3d-0242ac130003",
         "level": 6,
         "name": "Sunbeam",
         "type": "6th level Evocation",
@@ -2202,6 +2392,7 @@
         "castedBy": "Cleric (TCE)"
     },
     {
+        "uuid": "4c1fc312-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Conjure Celestial",
         "type": "7th level Conjuration",
@@ -2214,6 +2405,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc3d0-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Divine Word",
         "type": "7th level Evocation",
@@ -2225,6 +2417,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc5b0-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Etherealness",
         "type": "7th level Transmutation",
@@ -2237,6 +2430,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc678-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Fire Storm",
         "type": "7th level Evocation",
@@ -2248,6 +2442,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc740-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Plane Shift",
         "type": "7th level Conjuration",
@@ -2259,6 +2454,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc808-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Regenerate",
         "type": "7th level Transmutation",
@@ -2270,6 +2466,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc8c6-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Resurrection",
         "type": "7th level Necromancy",
@@ -2281,6 +2478,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fc984-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Symbol",
         "type": "7th level Abjuration",
@@ -2292,6 +2490,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fcae2-3a2d-11ec-8d3d-0242ac130003",
         "level": 7,
         "name": "Temple of the Gods",
         "type": "7th level Conjuration",
@@ -2303,6 +2502,7 @@
         "castedBy": "Cleric (XGE)"
     },
     {
+        "uuid": "4c1fcbaa-3a2d-11ec-8d3d-0242ac130003",
         "level": 8,
         "name": "Antimagic Field",
         "type": "8th level Abjuration",
@@ -2314,6 +2514,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fcc68-3a2d-11ec-8d3d-0242ac130003",
         "level": 8,
         "name": "Control Weather",
         "type": "8th level Transmutation",
@@ -2325,6 +2526,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fcd26-3a2d-11ec-8d3d-0242ac130003",
         "level": 8,
         "name": "Earthquake",
         "type": "8th level Evocation",
@@ -2336,6 +2538,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fcf24-3a2d-11ec-8d3d-0242ac130003",
         "level": 8,
         "name": "Holy Aura",
         "type": "8th level Abjuration",
@@ -2347,6 +2550,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fcfe2-3a2d-11ec-8d3d-0242ac130003",
         "level": 8,
         "name": "Sunburst",
         "type": "8th level Evocation",
@@ -2358,6 +2562,7 @@
         "castedBy": "Cleric (TCE)"
     },
     {
+        "uuid": "4c1fd096-3a2d-11ec-8d3d-0242ac130003",
         "level": 9,
         "name": "Astral Projection",
         "type": "9th level Necromancy",
@@ -2369,6 +2574,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fd154-3a2d-11ec-8d3d-0242ac130003",
         "level": 9,
         "name": "Gate",
         "type": "9th level Conjuration",
@@ -2380,6 +2586,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fd212-3a2d-11ec-8d3d-0242ac130003",
         "level": 9,
         "name": "Mass Heal",
         "type": "9th level Evocation",
@@ -2391,6 +2598,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fd2d0-3a2d-11ec-8d3d-0242ac130003",
         "level": 9,
         "name": "True Resurrection",
         "type": "9th level Necromancy",
@@ -2402,6 +2610,7 @@
         "castedBy": "Cleric"
     },
     {
+        "uuid": "4c1fd62c-3a2d-11ec-8d3d-0242ac130003",
         "level": 9,
         "name": "Power Word Heal",
         "type": "9th level Evocation",

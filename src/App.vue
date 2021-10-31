@@ -15,7 +15,11 @@ function search(form: { name: string, level: number | null, description: string}
 	spells.value = spellList.filter(s => byName(s, form.name) && byLevel(s, form.level) && byDescription(s, form.description))
 }
 
-const spells = ref(spellList)
+const spells = ref<Spell[]>(spellList)
+
+function selectSpell(spell: Spell) {
+	spell.selected = !spell.selected
+}
 
 </script>
 
@@ -24,8 +28,8 @@ const spells = ref(spellList)
 		<SearchForm @search="search" />
 	</div>
 	<ul class="flex flex-wrap">
-		<li class="w-full md:w-1/2 lg:w-1/3 p-5" v-for="(spell, i) in spells" :key="i + spell.name">
-			<SpellCard :spell="spell" />
+		<li class="w-full md:w-1/2 lg:w-1/3 p-2" v-for="(spell, i) in spells" :key="i + spell.name">
+			<SpellCard @click="selectSpell(spell)" :spell="spell" />
 		</li>
 	</ul>
 </template>

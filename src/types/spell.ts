@@ -1,4 +1,5 @@
 export interface Spell {
+	uuid: string,
 	level: number,
 	name: string,
 	type: string,
@@ -10,4 +11,5 @@ export interface Spell {
 	higherLevelDescrption?: string,
 	castedBy: string,
 	picture?: string,
+	selected?: boolean,
 }
