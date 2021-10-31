@@ -3,17 +3,17 @@
     <div class="flex flex-wrap w-full items-end">
         <div class="form-group">
             <label for="name">Name</label>
-        <input type="text" name="name" v-model="form.name">
+            <input class="input" type="text" name="name" v-model="form.name">
         </div>
 
         <div class="form-group">
             <label for="level">Level</label>
-        <input type="number" min="0" max="9" name="level" v-model="form.level">
+            <input class="input" type="number" min="0" max="9" name="level" v-model="form.level">
         </div>
 
         <div class="form-group">
             <label for="description">Description</label>
-        <input type="text" name="description" v-model="form.description">
+            <input class="input" type="text" name="description" v-model="form.description">
         </div>
 
         <div class="ml-auto flex space-x-3 p-3 w-full sm:w-auto">
@@ -46,8 +46,8 @@ function clear() {
 }
 </script>
 <style>
-input {
-    @apply border rounded p-1 ring-blue-500;
+.input {
+    @apply border px-2 py-1 rounded ring-blue-500;
 }
 
 .form-group {
