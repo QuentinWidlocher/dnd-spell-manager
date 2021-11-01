@@ -11,9 +11,9 @@
 </template>
 
 <script setup lang="ts">
-import SpellCard from './components/SpellCard.vue'
-import SearchForm from './components/SearchForm.vue';
-import { Spell } from './types/spell';
+import SpellCard from './SpellCard.vue'
+import SearchForm from './SearchForm.vue';
+import { Spell } from '../types/spell';
 import { PropType } from '@vue/runtime-core';
 
 const { spells } = defineProps({

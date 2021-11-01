@@ -4,3 +4,12 @@
 body {
     font-family: 'PT Serif', serif;
 }
+
+#app {
+    /* We do this instead of height: 100vh because it's broken on mobile otherwise */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

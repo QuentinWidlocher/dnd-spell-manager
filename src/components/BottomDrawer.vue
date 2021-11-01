@@ -20,17 +20,16 @@ const emit = defineEmits(['toggle'])
 
 <style>
 .drawer {
-    display: block;
     position: fixed;
     transition: transform .5s ease;
+    bottom: 0;
 }
 
 .drawer.closed {
-    transform: translateY(calc(100% - 48px));
-    bottom: 0;
+    transform: translateY(calc(100% - 48px - 48px));
 }
 
 .drawer.opened {
-    bottom: 0;
+    transform: translateY(-48px);
 }
 </style>

@@ -40,7 +40,7 @@
 					</div>
 				</li>
 			</ul>
-			<p class="h-80 overflow-y-auto" v-html="spell.description"></p>
+			<p class="h-64 overflow-y-auto" v-html="spell.description"></p>
 		</div>
 	</article>
 	</div>

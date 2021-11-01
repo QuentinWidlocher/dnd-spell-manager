@@ -1,67 +1,58 @@
+<template>
+	<div class="grid">
+		<main>
+			<CardList/>
+		</main>
+		<footer class="h-12 z-20">
+			<div class="bg-gray-200 flex align-middle justify-center">
+				<button class="button">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path transform="rotate(90 12 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+					</svg>
+				</button>
+				<button class="button">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+  						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+					</svg>	
+				</button>
+			</div>
+		</footer>
+	</div>
+</template>
+
 <script setup lang="ts">
-import MobileSelect from './MobileSelect.vue'
-import DesktopSelect from './DesktopSelect.vue'
 import './style.css'
-import spellList from './assets/cleric.fr.json'
-import { onMounted, ref } from 'vue';
-import { Spell } from './types/spell';
-
-const byTextContains = (text: string, contains: string) => text?.toLowerCase().includes(contains?.toLowerCase())
-const byName = (spell: Spell, name: string) => byTextContains(spell.name, name);
-const byLevel = (spell: Spell, level: number | null) => level ? spell.level == level : true;
-const byDescription = (spell: Spell, description: string) => byTextContains(spell.description, description);
-const isSelected = (spell: Spell, selected: boolean | null) => selected == undefined ? true : (spell.selected ?? false) === selected;
-
-function search(form: { name: string, level: number | null, description: string, selected: boolean | null}) {
-	spells.value = spellList.filter(s => 
-		byName(s, form.name) 
-		&& byLevel(s, form.level) 
-		&& byDescription(s, form.description) 
-		&& isSelected(s, form.selected)
-	)
-}
-
-const spells = ref<Spell[]>(spellList.sort((a,b) => a.level - b.level))
-
-function selectSpell(spell: Spell) {
-	spell.selected = !spell.selected
-
-	localStorage.setItem('selectedSpellIds', JSON.stringify(spells.value.filter(s => s.selected).map(s => s.id)))
-}
-
-const isDesktop = ref(false);
-
-onMounted(() => {
-	console.debug('spellList.length', spellList.length);
-
-	isDesktop.value = window.innerWidth > 768
-	window.addEventListener('resize', () => {
-		isDesktop.value = window.innerWidth > 768
-  	});
-
-	let selectedSpellsIdsJSON = localStorage.getItem('selectedSpellIds');
-	if (selectedSpellsIdsJSON != null) {
-		let selectedSpellsId: string[] = JSON.parse(selectedSpellsIdsJSON);
-
-		selectedSpellsId.forEach(spellId => {
-			let spell = spells.value.find(spell => spell.id == spellId)
-			if (spell) {
-				spell.selected = true;
-			}
-		});
-	}
-})
+import CardList from './components/CardList.vue';
 
 </script>
 
-<template>
-	<template v-if="isDesktop">
-		<DesktopSelect :spells="spells" @search="search" @select="selectSpell"></DesktopSelect>
-	</template>
-	<template v-else>
-		<MobileSelect :spells="spells" @search="search" @select="selectSpell"></MobileSelect>
-	</template>
-</template>
-
 <style>
+.grid {
+	width: 100%;
+	height: 100%;
+
+	overflow-y: hidden;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr auto;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+
+	overflow-y: hidden;
+	grid-row: 1;
+}
+
+footer {
+	grid-row: 2;
+}
+
+.button {
+	@apply p-3;
+}
 </style>
