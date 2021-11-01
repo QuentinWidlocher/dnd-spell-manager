@@ -7,7 +7,7 @@
 		  </swiper-slide>
   </swiper>
 </div>
-<BottomDrawer>
+<BottomDrawer :opened="drawerOpened" @toggle="drawerOpened = !drawerOpened">
 	<SearchForm @search="search" />
 </BottomDrawer>
 </template>
@@ -25,7 +25,7 @@ import "swiper/css/effect-cards"
 import SwiperCore, {
   EffectCards, Virtual
 } from 'swiper';
-import { onMounted, PropType } from '@vue/runtime-core';
+import { PropType } from '@vue/runtime-core';
 import { ref } from 'vue';
 
 SwiperCore.use([EffectCards, Virtual]);
@@ -34,7 +34,10 @@ const { spells } = defineProps({
 	spells: Array as PropType<Spell[]>
 })
 
+const drawerOpened = ref(false);
+
 function search(form: { name: string, level: number | null, description: string}) {
+	drawerOpened.value = false;
 	emit('search', form)
 }
 

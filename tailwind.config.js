@@ -9,7 +9,11 @@ module.exports = {
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            ringWidth: ['focus-visible']
+        },
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/forms'),
+    ],
 }

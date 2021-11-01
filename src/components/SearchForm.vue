@@ -16,6 +16,12 @@
             <input class="input" type="text" name="description" v-model="form.description">
         </div>
 
+        <div class="form-group flex">
+            <label class="py-2"><input type="radio" class="radio" :value="true" v-model="form.selected" /> Only selected spells</label>
+            <label class="py-2"><input type="radio" class="radio" :value="false" v-model="form.selected" /> Only not selected spells</label>
+            <label class="py-2"><input type="radio" class="radio" :value="null" v-model="form.selected" /> All spells</label>
+        </div>
+
         <div class="ml-auto flex space-x-3 p-3 w-full sm:w-auto">
             <button type="button" @click="clear()" class=" px-3 flex-grow py-1 rounded border border-blue-500 text-blue-500 hover:bg-blue-700 hover:text-white">Clear</button>
             <button type="submit" class="flex-grow px-3 py-1 rounded bg-blue-500 text-white hover:bg-blue-700">Search</button>
@@ -29,13 +35,15 @@ import { ref } from 'vue';
 const defaultForm = {
             name: '',
             description: '',
-            level: null
+            level: null,
+            selected: undefined,
         }
 
 const form = ref<{ 
             name: string,
             level: number | null,
-            description: string
+            description: string,
+            selected: boolean | undefined,
         }>({...defaultForm})
 
 const emit = defineEmits(['search']);
@@ -46,8 +54,12 @@ function clear() {
 }
 </script>
 <style>
-.input {
-    @apply border px-2 py-1 rounded ring-blue-500;
+input.input {
+    @apply border px-2 py-1 rounded border-gray-400 focus:ring-0 focus:border-blue-500;
+}
+
+input.radio[type="radio"] {
+    @apply rounded-full ring-0 text-blue-500 outline-none focus-visible:ring;
 }
 
 .form-group {
