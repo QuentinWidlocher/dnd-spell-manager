@@ -1,5 +1,5 @@
 <template>
-<form class="w-full" @submit.prevent="emit('search', form)">
+<form class="w-full" @submit.prevent="search">
     <div class="flex flex-wrap w-full items-end">
         <div class="form-group">
             <label for="name">Name</label>
@@ -30,7 +30,7 @@
 </form>
 </template>
 <script setup lang="ts">
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 
 const defaultForm = {
             name: '',
@@ -50,8 +50,21 @@ const emit = defineEmits(['search']);
 
 function clear() {
     form.value = {...defaultForm}
+    search()
+}
+
+function search() {
+    localStorage.setItem('searchForm', JSON.stringify(form.value))
     emit('search', form.value)
 }
+
+onMounted(() => {
+    const searchFormJSON = localStorage.getItem('searchForm');
+	if (searchFormJSON != null) {
+		form.value = JSON.parse(searchFormJSON);
+        emit('search', form.value)
+	}
+})
 </script>
 <style>
 input.input {

@@ -2,7 +2,7 @@
 <template>
 <div class="h-full w-full p-5 overflow-x-hidden">
 	<swiper :slidesPerView="1" :virtual="{enabled: true, addSlidesAfter: 1, addSlidesBefore: 1}" effect="cards" :cards-effect="{slideShadows: false}" class="h-full w-full">
-  		<swiper-slide v-for="(spell, i) in spells" :key="i + spell.name" :virtualIndex="i">
+  		<swiper-slide v-for="(spell, i) in spells" :key="spell.uuid" :virtualIndex="spell.uuid">
 		 	<SpellCard @click="selectSpell(spell)" :spell="spell" /> 
 		  </swiper-slide>
   </swiper>
