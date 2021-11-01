@@ -8,7 +8,7 @@
 				</h1>
 				<div class="w-full">
 					<h1 class="font-bold text-xl my-0 text-red-800">{{ spell.name }}</h1>
-					<h2 class="text-red-900">{{ spell.type }}</h2>
+					<h2 class="text-red-900">{{ spell.school }}</h2>
 				</div>
 				<div class="img-wrapper ">
 					<img class="" :src="spell.picture" alt="" />
@@ -29,14 +29,14 @@
 				</li>
 				<li>
 					<div class="flex">
-						<div class="w-1/2"><strong>Components :</strong></div>
-						<div class="w-1/2">{{ spell.components }}</div>
+						<div class="w-1/2"><strong>Duration :</strong></div>
+						<div class="w-1/2">{{ spell.duration }}</div>
 					</div>
 				</li>
 				<li>
 					<div class="flex">
-						<div class="w-1/2"><strong>Duration :</strong></div>
-						<div class="w-1/2">{{ spell.duration }}</div>
+						<div class="w-1/2"><strong>Components :</strong></div>
+						<div class="w-1/2 h-20 overflow-y-auto">{{ spell.components }}</div>
 					</div>
 				</li>
 			</ul>

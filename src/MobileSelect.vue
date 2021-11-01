@@ -1,10 +1,10 @@
 
 <template>
 <div class="h-full w-full p-5 overflow-x-hidden">
-	<swiper :slidesPerView="1" :virtual="{enabled: true, addSlidesAfter: 1, addSlidesBefore: 1}" effect="cards" :cards-effect="{slideShadows: false}" class="h-full w-full">
-  		<swiper-slide v-for="(spell, i) in spells" :key="spell.uuid" :virtualIndex="spell.uuid">
+	<swiper :virtual="{enabled: true, addSlidesAfter: 1, addSlidesBefore: 1}" effect="cards" :cards-effect="{slideShadows: false}" class="h-full w-full">
+  		<swiper-slide v-for="(spell, i) in spells" :key="spell.id" :virtualIndex="spell.id">
 		 	<SpellCard @click="selectSpell(spell)" :spell="spell" /> 
-		  </swiper-slide>
+		</swiper-slide>
   </swiper>
 </div>
 <BottomDrawer :opened="drawerOpened" @toggle="drawerOpened = !drawerOpened">

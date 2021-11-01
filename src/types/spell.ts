@@ -1,15 +1,14 @@
 export interface Spell {
-	uuid: string,
+	id: string,
 	level: number,
 	name: string,
-	type: string,
+	school: string,
 	castingTime: string,
 	range: string,
 	components: string,
 	duration: string,
 	description: string,
-	higherLevelDescrption?: string,
-	castedBy: string,
+	higherLevel?: string,
 	picture?: string,
 	selected?: boolean,
 }

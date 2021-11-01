@@ -2,7 +2,7 @@
 import MobileSelect from './MobileSelect.vue'
 import DesktopSelect from './DesktopSelect.vue'
 import './style.css'
-import spellList from './assets/cleric.json'
+import spellList from './assets/cleric.fr.json'
 import { onMounted, ref } from 'vue';
 import { Spell } from './types/spell';
 
@@ -13,7 +13,6 @@ const byDescription = (spell: Spell, description: string) => byTextContains(spel
 const isSelected = (spell: Spell, selected: boolean | null) => selected == undefined ? true : (spell.selected ?? false) === selected;
 
 function search(form: { name: string, level: number | null, description: string, selected: boolean | null}) {
-	console.debug('form', form);
 	spells.value = spellList.filter(s => 
 		byName(s, form.name) 
 		&& byLevel(s, form.level) 
@@ -22,17 +21,19 @@ function search(form: { name: string, level: number | null, description: string,
 	)
 }
 
-const spells = ref<Spell[]>(spellList)
+const spells = ref<Spell[]>(spellList.sort((a,b) => a.level - b.level))
 
 function selectSpell(spell: Spell) {
 	spell.selected = !spell.selected
 
-	localStorage.setItem('selectedSpellIds', JSON.stringify(spells.value.filter(s => s.selected).map(s => s.uuid)))
+	localStorage.setItem('selectedSpellIds', JSON.stringify(spells.value.filter(s => s.selected).map(s => s.id)))
 }
 
 const isDesktop = ref(false);
 
 onMounted(() => {
+	console.debug('spellList.length', spellList.length);
+
 	isDesktop.value = window.innerWidth > 768
 	window.addEventListener('resize', () => {
 		isDesktop.value = window.innerWidth > 768
@@ -43,7 +44,7 @@ onMounted(() => {
 		let selectedSpellsId: string[] = JSON.parse(selectedSpellsIdsJSON);
 
 		selectedSpellsId.forEach(spellId => {
-			let spell = spells.value.find(spell => spell.uuid == spellId)
+			let spell = spells.value.find(spell => spell.id == spellId)
 			if (spell) {
 				spell.selected = true;
 			}

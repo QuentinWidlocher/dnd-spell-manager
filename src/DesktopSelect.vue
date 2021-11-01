@@ -3,7 +3,7 @@
 <SearchForm @search="search" />
 <div class="h-full w-full">
 	<ul class="flex flex-wrap">
-		<li class="p-2 w-1/3" v-for="(spell, i) in spells" :key="i + spell.name">
+		<li class="p-2 w-1/3" v-for="(spell, i) in spells" :key="spell.id">
 			<SpellCard @click="selectSpell(spell)" :spell="spell" />
 		</li>
 	</ul>
