@@ -2,14 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif;
 }
 
 #app {
-    /* We do this instead of height: 100vh because it's broken on mobile otherwise */
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  /* We do this instead of height: 100vh because it's broken on mobile otherwise */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+input.input {
+  @apply border px-2 py-1 rounded border-gray-400 focus:ring-0 focus:border-blue-500;
+}
+
+input.radio[type='radio'] {
+  @apply rounded-full ring-0 text-blue-500 outline-none focus-visible:ring;
+}
+
+select {
+  @apply rounded focus:ring-0 focus:border-blue-500;
+}
+
+.form-group {
+  @apply flex flex-col flex-wrap p-3 w-full sm:w-auto;
 }

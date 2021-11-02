@@ -7,8 +7,8 @@
 	</template>
 </template>
 <script setup lang="ts">
-import MobileSelect from './MobileSelect.vue'
-import DesktopSelect from './DesktopSelect.vue'
+import MobileSelect from '../components/MobileSelect.vue'
+import DesktopSelect from '../components/DesktopSelect.vue'
 import spellList from '../assets/cleric.fr.json'
 import { onMounted, ref } from 'vue';
 import { Spell } from '../types/spell';

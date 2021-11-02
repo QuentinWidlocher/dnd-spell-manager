@@ -67,15 +67,4 @@ onMounted(() => {
 })
 </script>
 <style>
-input.input {
-    @apply border px-2 py-1 rounded border-gray-400 focus:ring-0 focus:border-blue-500;
-}
-
-input.radio[type="radio"] {
-    @apply rounded-full ring-0 text-blue-500 outline-none focus-visible:ring;
-}
-
-.form-group {
-    @apply flex flex-col flex-wrap p-3 w-full sm:w-auto
-}
 </style>
