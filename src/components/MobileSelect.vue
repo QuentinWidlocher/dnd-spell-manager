@@ -1,9 +1,11 @@
 
 <template>
-	<div class="w-full pt-2 px-5 overflow-hidden">
-		<swiper :virtual="{enabled: true, addSlidesAfter: 1, addSlidesBefore: 1}" effect="cards" :cards-effect="{slideShadows: false}" class="w-full">
+	<div class="h-full w-full pt-2 pb-20 overflow-hidden">
+		<swiper :spaceBetween="-40" :modules="[Virtual]" :virtual="{enabled: true, addSlidesAfter: 2, addSlidesBefore: 2}" centered-slides class="h-full w-full">
 			<swiper-slide v-for="(spell, i) in spells" :key="spell.id" :virtualIndex="spell.id">
-				<SpellCard @click="selectSpell(spell)" :spell="spell" /> 
+				<div class="px-5 h-full">
+					<SpellCard @click="selectSpell(spell)" :spell="spell"/> 
+				</div>
 			</swiper-slide>
 		</swiper>
 	</div>
@@ -21,13 +23,11 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import "swiper/css/effect-cards"
 
-import SwiperCore, {
+import {
   EffectCards, Virtual
 } from 'swiper';
 import { ref } from 'vue';
 import { SearchFormType } from '../types/searchForm';
-
-SwiperCore.use([EffectCards, Virtual]);
 
 const { spells } = defineProps<{
 	spells: Spell[]

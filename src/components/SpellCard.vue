@@ -1,7 +1,7 @@
 <template>
 	<div v-if="spell" :class="[spell.selected && 'border-blue-500', 'border-4 border-transparent rounded-2xl p-px w-full h-full select-none']">
 		<article class="p-1 w-full h-full border rounded-2xl shadow-md cursor-pointer">
-		<div class="border p-3 rounded-xl h-full">
+		<div class="border p-3 rounded-xl h-full flex flex-col">
 			<div class="flex items-center">
 				<h1 class="mr-5 font-bold text-xl text-red-800 border-2 rounded-full border-red-800 p-3">
 					{{ spell.level }}
@@ -40,7 +40,7 @@
 					</div>
 				</li>
 			</ul>
-			<p class="h-64 overflow-y-auto" v-html="spell.description"></p>
+			<p class="flex-grow overflow-y-auto" v-html="spell.description"></p>
 		</div>
 	</article>
 	</div>

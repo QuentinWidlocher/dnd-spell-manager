@@ -31,12 +31,11 @@
 </template>
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import { useI18n } from 'vue-i18n';
 import { localStorageGet } from '../helpers/localstorage';
-import { I18N } from '../i18n';
+import { useAppI18n } from '../i18n';
 import { SearchFormType } from '../types/searchForm';
 
-const { t } = useI18n<{ message: I18N }>()
+const { t } = useAppI18n()
 
 const defaultForm = {
             name: '',
