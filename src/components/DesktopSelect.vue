@@ -14,17 +14,20 @@
 import SpellCard from './SpellCard.vue'
 import SearchForm from './SearchForm.vue';
 import { Spell } from '../types/spell';
-import { PropType } from '@vue/runtime-core';
+import { SearchFormType } from '../types/searchForm';
 
-const { spells } = defineProps({
-	spells: Array as PropType<Spell[]>
-})
+const { spells } = defineProps<{
+	spells: Spell[]
+}>()
 
-function search(form: { name: string, level: number | null, description: string}) {
+function search(form: SearchFormType) {
 	emit('search', form)
 }
 
-const emit = defineEmits(['select', 'search'])
+const emit = defineEmits<{
+	(e: 'select', spell: Spell): void,
+	(e: 'search', form: SearchFormType): void
+}>()
 
 function selectSpell(spell: Spell) {
 	emit('select', spell)

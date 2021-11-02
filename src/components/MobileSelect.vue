@@ -1,7 +1,7 @@
 
 <template>
 	<div class="w-full pt-2 px-5 overflow-hidden">
-		<swiper :virtual="{enabled: true, addSlidesAfter: 1, addSlidesBefore: 1}" effect="cards" :cards-effect="{slideShadows: false}" class=" w-full">
+		<swiper :virtual="{enabled: true, addSlidesAfter: 1, addSlidesBefore: 1}" effect="cards" :cards-effect="{slideShadows: false}" class="w-full">
 			<swiper-slide v-for="(spell, i) in spells" :key="spell.id" :virtualIndex="spell.id">
 				<SpellCard @click="selectSpell(spell)" :spell="spell" /> 
 			</swiper-slide>
@@ -24,23 +24,26 @@ import "swiper/css/effect-cards"
 import SwiperCore, {
   EffectCards, Virtual
 } from 'swiper';
-import { PropType } from '@vue/runtime-core';
 import { ref } from 'vue';
+import { SearchFormType } from '../types/searchForm';
 
 SwiperCore.use([EffectCards, Virtual]);
 
-const { spells } = defineProps({
-	spells: Array as PropType<Spell[]>
-})
+const { spells } = defineProps<{
+	spells: Spell[]
+}>()
 
 const drawerOpened = ref(false);
 
-function search(form: { name: string, level: number | null, description: string}) {
+function search(form: SearchFormType) {
 	drawerOpened.value = false;
 	emit('search', form)
 }
 
-const emit = defineEmits(['select', 'search'])
+const emit = defineEmits<{
+	(e: 'select', spell: Spell): void,
+	(e: 'search', form: SearchFormType): void
+}>()
 
 function selectSpell(spell: Spell) {
 	emit('select', spell)

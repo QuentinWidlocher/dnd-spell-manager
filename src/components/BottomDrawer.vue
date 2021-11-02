@@ -14,7 +14,9 @@ const { opened } = defineProps({
     opened: Boolean
 })
 
-const emit = defineEmits(['toggle'])
+const emit = defineEmits<{
+    (e: 'toggle'): void
+}>()
 
 </script>
 

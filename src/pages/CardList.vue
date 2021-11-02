@@ -14,6 +14,7 @@ import DesktopSelect from '../components/DesktopSelect.vue'
 import { onMounted, ref } from 'vue';
 import { Spell } from '../types/spell';
 import { AvailableLocale, useAppI18n } from '../i18n';
+import { SearchFormType } from '../types/searchForm';
 
 let spellList: Spell[] = [];
 
@@ -25,8 +26,7 @@ const byLevel = (spell: Spell, level: number | null) => level ? spell.level == l
 const byDescription = (spell: Spell, description: string) => byTextContains(spell.description, description);
 const isSelected = (spell: Spell, selected: boolean | null) => selected == undefined ? true : (spell.selected ?? false) === selected;
 
-function search(form: { name: string, level: number | null, description: string, selected: boolean | null}) {
-	console.debug('searching');
+function search(form: SearchFormType) {
 	spells.value = spellList.filter(s => 
 		byName(s, form.name) 
 		&& byLevel(s, form.level) 

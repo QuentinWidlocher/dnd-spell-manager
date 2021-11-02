@@ -33,13 +33,7 @@
 import { onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { I18N } from '../i18n';
-
-type SearchFormType = { 
-            name: string,
-            level: number | null,
-            description: string,
-            selected: boolean | undefined,
-        }
+import { SearchFormType } from '../types/searchForm';
 
 const { t } = useI18n<{ message: I18N }>()
 
@@ -47,7 +41,7 @@ const defaultForm = {
             name: '',
             description: '',
             level: null,
-            selected: undefined,
+            selected: null,
         }
 
 const form = ref<SearchFormType>({...defaultForm})
