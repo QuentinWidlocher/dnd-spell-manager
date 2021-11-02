@@ -9,9 +9,13 @@
 <script setup lang="ts">
 import MobileSelect from '../components/MobileSelect.vue'
 import DesktopSelect from '../components/DesktopSelect.vue'
-import spellList from '../assets/cleric.fr.json'
 import { onMounted, ref } from 'vue';
 import { Spell } from '../types/spell';
+import { AvailableLocale, useAppI18n } from '../i18n';
+
+let spellList: Spell[] = [];
+
+const { locale } = useAppI18n()
 
 const byTextContains = (text: string, contains: string) => text?.toLowerCase().includes(contains?.toLowerCase())
 const byName = (spell: Spell, name: string) => byTextContains(spell.name, name);
@@ -28,7 +32,7 @@ function search(form: { name: string, level: number | null, description: string,
 	)
 }
 
-const spells = ref<Spell[]>(spellList.sort((a,b) => a.level - b.level))
+const spells = ref<Spell[]>([])
 
 function selectSpell(spell: Spell) {
 	spell.selected = !spell.selected
@@ -36,10 +40,20 @@ function selectSpell(spell: Spell) {
 	localStorage.setItem('selectedSpellIds', JSON.stringify(spells.value.filter(s => s.selected).map(s => s.id)))
 }
 
+async function loadSpells(locale: AvailableLocale) {
+	const comps = import.meta.glob('../assets/*.json');
+	const match = comps[`../assets/cleric.${locale}.json`];
+
+	spellList = (await match()).default
+}
+
 const isDesktop = ref(false);
 
 onMounted(() => {
-	console.debug('spellList.length', spellList.length);
+
+	loadSpells(locale.value).then(() => {
+		spells.value = spellList.sort((a,b) => a.level - b.level)
+	})
 
 	isDesktop.value = window.innerWidth > 768
 	window.addEventListener('resize', () => {

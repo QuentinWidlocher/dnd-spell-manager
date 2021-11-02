@@ -49,11 +49,9 @@
 <script setup lang="ts">
 import {Spell} from '../types/spell'
 
-import { PropType } from 'vue'
-
-const { spell } = defineProps({
-      spell: Object as PropType<Spell>,
-  })
+const { spell } = defineProps<{
+	spell: Spell
+}>()
 
 </script>
 
