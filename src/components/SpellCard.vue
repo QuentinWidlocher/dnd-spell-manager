@@ -17,25 +17,25 @@
 			<ul class="my-5 w-full lg:w-2/3">
 				<li>
 					<div class="flex">
-						<div class="w-1/2"><strong>Casting time :</strong></div>
+						<div class="w-1/2"><strong>{{t('spellCard.castingTime')}} :</strong></div>
 						<div class="w-1/2">{{ spell.castingTime }}</div>
 					</div>
 				</li>
 				<li>
 					<div class="flex">
-						<div class="w-1/2"><strong>Range :</strong></div>
+						<div class="w-1/2"><strong>{{t('spellCard.range')}} :</strong></div>
 						<div class="w-1/2">{{ spell.range }}</div>
 					</div>
 				</li>
 				<li>
 					<div class="flex">
-						<div class="w-1/2"><strong>Duration :</strong></div>
+						<div class="w-1/2"><strong>{{t('spellCard.duration')}} :</strong></div>
 						<div class="w-1/2">{{ spell.duration }}</div>
 					</div>
 				</li>
 				<li>
 					<div class="flex">
-						<div class="w-1/2"><strong>Components :</strong></div>
+						<div class="w-1/2"><strong>{{t('spellCard.components')}} :</strong></div>
 						<div class="w-1/2 h-20 overflow-y-auto">{{ spell.components }}</div>
 					</div>
 				</li>
@@ -47,7 +47,10 @@
 </template>
 
 <script setup lang="ts">
+import { useAppI18n } from '../i18n';
 import {Spell} from '../types/spell'
+
+const { t } = useAppI18n()
 
 const { spell } = defineProps<{
 	spell: Spell

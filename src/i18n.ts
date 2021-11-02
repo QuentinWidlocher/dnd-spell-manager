@@ -16,7 +16,13 @@ export type I18N = {
         all: string
       }
     }
-  }
+  },
+  spellCard: {
+    castingTime: string,
+    range: string,
+    duration: string,
+    components: string
+  },
   settings: {
     lang: string
   }
@@ -37,6 +43,12 @@ const en: I18N = {
       },
     },
   },
+  spellCard: {
+    castingTime: 'Casting time',
+    range: 'Range',
+    duration: 'Duration',
+    components: 'Components'
+  },
   settings: {
     lang: 'Language',
   },
@@ -56,6 +68,12 @@ const fr: I18N = {
         all: 'Tous les sorts',
       },
     },
+  },
+  spellCard: {
+    castingTime: 'Temps d\'incantation',
+    range: 'Portée',
+    duration: 'Durée',
+    components: 'Composantes'
   },
   settings: {
     lang: 'Langage',
