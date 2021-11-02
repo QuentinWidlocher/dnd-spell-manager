@@ -1,5 +1,5 @@
 <template>
-    <template v-if="spells.length > 0">
+    <template v-if="spells?.length != undefined">
 		<template v-if="isDesktop">
 			<DesktopSelect :spells="spells" @search="search" @select="selectSpell"></DesktopSelect>
 		</template>
@@ -35,12 +35,12 @@ function search(form: { name: string, level: number | null, description: string,
 	)
 }
 
-const spells = ref<Spell[]>([])
+const spells = ref<Spell[] | undefined>(undefined)
 
 function selectSpell(spell: Spell) {
 	spell.selected = !spell.selected
 
-	localStorage.setItem('selectedSpellIds', JSON.stringify(spells.value.filter(s => s.selected).map(s => s.id)))
+	localStorage.setItem('selectedSpellIds', JSON.stringify(spells.value?.filter(s => s.selected).map(s => s.id)))
 }
 
 async function loadSpells(locale: AvailableLocale) {
@@ -68,7 +68,7 @@ onMounted(async () => {
 		let selectedSpellsId: string[] = JSON.parse(selectedSpellsIdsJSON);
 
 		selectedSpellsId.forEach(spellId => {
-			let spell = spells.value.find(spell => spell.id == spellId)
+			let spell = spells.value?.find(spell => spell.id == spellId)
 			if (spell) {
 				spell.selected = true;
 			}
