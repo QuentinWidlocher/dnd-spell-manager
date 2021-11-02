@@ -32,6 +32,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
+import { localStorageGet } from '../helpers/localstorage';
 import { I18N } from '../i18n';
 import { SearchFormType } from '../types/searchForm';
 
@@ -61,11 +62,8 @@ function search() {
 }
 
 onMounted(() => {
-    const searchFormJSON = localStorage.getItem('searchForm');
-	if (searchFormJSON != null) {
-		form.value = JSON.parse(searchFormJSON);
-        emit('search', form.value)
-	}
+    form.value = localStorageGet('searchForm') ?? defaultForm
+    emit('search', form.value)
 })
 </script>
 <style>

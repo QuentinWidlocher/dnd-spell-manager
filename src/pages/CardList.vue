@@ -15,6 +15,7 @@ import { onMounted, ref } from 'vue';
 import { Spell } from '../types/spell';
 import { AvailableLocale, useAppI18n } from '../i18n';
 import { SearchFormType } from '../types/searchForm';
+import { localStorageGet } from '../helpers/localstorage';
 
 let spellList: Spell[] = [];
 
@@ -63,16 +64,13 @@ onMounted(async () => {
 
 	spells.value = spellList.sort((a,b) => a.level - b.level)
 
-	let selectedSpellsIdsJSON = localStorage.getItem('selectedSpellIds');
-	if (selectedSpellsIdsJSON != null) {
-		let selectedSpellsId: string[] = JSON.parse(selectedSpellsIdsJSON);
+	let selectedSpellsId: string[] = localStorageGet('selectedSpellIds') ?? []
 
-		selectedSpellsId.forEach(spellId => {
-			let spell = spells.value?.find(spell => spell.id == spellId)
-			if (spell) {
-				spell.selected = true;
-			}
-		});
-	}
+	selectedSpellsId.forEach(spellId => {
+		let spell = spells.value?.find(spell => spell.id == spellId)
+		if (spell) {
+			spell.selected = true;
+		}
+	});
 })
 </script>
