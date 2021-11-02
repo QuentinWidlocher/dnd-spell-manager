@@ -1,9 +1,11 @@
 <template>
-    <template v-if="isDesktop">
-		<DesktopSelect :spells="spells" @search="search" @select="selectSpell"></DesktopSelect>
-	</template>
-	<template v-else>
-		<MobileSelect :spells="spells" @search="search" @select="selectSpell"></MobileSelect>
+    <template v-if="spells.length > 0">
+		<template v-if="isDesktop">
+			<DesktopSelect :spells="spells" @search="search" @select="selectSpell"></DesktopSelect>
+		</template>
+		<template v-else>
+			<MobileSelect :spells="spells" @search="search" @select="selectSpell"></MobileSelect>
+		</template>
 	</template>
 </template>
 <script setup lang="ts">
@@ -24,6 +26,7 @@ const byDescription = (spell: Spell, description: string) => byTextContains(spel
 const isSelected = (spell: Spell, selected: boolean | null) => selected == undefined ? true : (spell.selected ?? false) === selected;
 
 function search(form: { name: string, level: number | null, description: string, selected: boolean | null}) {
+	console.debug('searching');
 	spells.value = spellList.filter(s => 
 		byName(s, form.name) 
 		&& byLevel(s, form.level) 
@@ -41,24 +44,24 @@ function selectSpell(spell: Spell) {
 }
 
 async function loadSpells(locale: AvailableLocale) {
-	const comps = import.meta.glob('../assets/*.json');
-	const match = comps[`../assets/cleric.${locale}.json`];
+	const files = import.meta.glob('../assets/*.json');
+	const getFile = files[`../assets/cleric.${locale}.json`];
 
-	spellList = (await match()).default
+	spellList = (await getFile()).default
 }
 
 const isDesktop = ref(false);
 
-onMounted(() => {
-
-	loadSpells(locale.value).then(() => {
-		spells.value = spellList.sort((a,b) => a.level - b.level)
-	})
+onMounted(async () => {
 
 	isDesktop.value = window.innerWidth > 768
 	window.addEventListener('resize', () => {
 		isDesktop.value = window.innerWidth > 768
   	});
+
+	await loadSpells(locale.value);
+
+	spells.value = spellList.sort((a,b) => a.level - b.level)
 
 	let selectedSpellsIdsJSON = localStorage.getItem('selectedSpellIds');
 	if (selectedSpellsIdsJSON != null) {
