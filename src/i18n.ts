@@ -1,4 +1,6 @@
 import { createI18n, useI18n } from 'vue-i18n'
+import { en } from './i18n/en'
+import { fr } from './i18n/fr'
 
 export type AvailableLocale = 'en' | 'fr'
 
@@ -7,9 +9,9 @@ export type I18N = {
     search: string
     clear: string
     fields: {
-      name: string
+      keyword: string
       level: string
-      description: string
+      school: string
       select: {
         selected: string
         notSelected: string
@@ -32,71 +34,16 @@ export type I18N = {
     reload: string
     close: string
   }
-}
-
-const en: I18N = {
-  searchForm: {
-    search: 'Search',
-    clear: 'Clear',
-    fields: {
-      name: 'Name',
-      level: 'Level',
-      description: 'Description',
-      select: {
-        selected: 'Only selected spells',
-        notSelected: 'Only not selected spells',
-        all: 'All spells',
-      },
-    },
-  },
-  spellCard: {
-    castingTime: 'Casting time',
-    range: 'Range',
-    duration: 'Duration',
-    components: 'Components',
-  },
-  settings: {
-    lang: 'Language',
-  },
-  pwa: {
-    offlineReady: 'Application ready to work offline',
-    reloadPrompt: 'New content available, click on reload button to update.',
-    reload: 'Reload application',
-    close: 'Close',
-  },
-}
-
-const fr: I18N = {
-  searchForm: {
-    search: 'Rechercher',
-    clear: 'Effacer',
-    fields: {
-      name: 'Nom',
-      level: 'Niveau',
-      description: 'Description',
-      select: {
-        selected: 'Seulement les sorts sélectionnés',
-        notSelected: 'Seulement les sorts non sélectionnés',
-        all: 'Tous les sorts',
-      },
-    },
-  },
-  spellCard: {
-    castingTime: "Temps d'incantation",
-    range: 'Portée',
-    duration: 'Durée',
-    components: 'Composantes',
-  },
-  settings: {
-    lang: 'Langage',
-  },
-  pwa: {
-    offlineReady: "L'application peux désormais fonctionner hors ligne.",
-    reloadPrompt:
-      "Une mise à jour est disponible, redémarrer l'application pour en bénéficier.",
-    reload: "Redémarrer l'application",
-    close: 'Fermer',
-  },
+  schools: {
+    abjuration: string
+    conjuration: string
+    divination: string
+    enchantment: string
+    evocation: string
+    illusion: string
+    necromancy: string
+    transmutation: string
+  }
 }
 
 const messages: { [k in AvailableLocale]: I18N } = {

@@ -1,6 +1,8 @@
-export interface SearchFormType { 
-    name: string,
-    level: number | null,
-    description: string,
-    selected: boolean | null,
+import { School } from './schools'
+
+export interface SearchFormType {
+  keyword: string
+  level: number | null
+  school: School | null
+  selected: boolean | null
 }

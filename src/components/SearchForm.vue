@@ -2,18 +2,20 @@
 <form class="w-full" @submit.prevent="search">
     <div class="flex flex-wrap w-full items-end">
         <div class="form-group">
-            <label for="name">{{t('searchForm.fields.name')}}</label>
-            <input class="input" type="text" name="name" v-model="form.name">
+            <label for="keyword">{{t('searchForm.fields.keyword')}}</label>
+            <input class="input" type="text" id="keyword" name="keyword" v-model="form.keyword">
         </div>
 
         <div class="form-group">
             <label for="level">{{t('searchForm.fields.level')}}</label>
-            <input class="input" type="number" min="0" max="9" name="level" v-model="form.level">
+            <input class="input" type="number" min="0" max="9" name="level" id="level" v-model="form.level">
         </div>
 
         <div class="form-group">
-            <label for="description">{{t('searchForm.fields.description')}}</label>
-            <input class="input" type="text" name="description" v-model="form.description">
+            <label for="school">{{t('searchForm.fields.school')}}</label>
+            <select name="school" id="school" v-model="form.school">
+                <option v-for="school in schools" :value="school">{{t(`schools.${school}`)}}</option>
+            </select>
         </div>
 
         <div class="form-group flex">
@@ -34,12 +36,13 @@ import { onMounted, ref } from 'vue';
 import { localStorageGet } from '../helpers/localstorage';
 import { useAppI18n } from '../i18n';
 import { SearchFormType } from '../types/searchForm';
+import { schools } from '../types/schools'
 
 const { t } = useAppI18n()
 
 const defaultForm = {
-            name: '',
-            description: '',
+            keyword: '',
+            school: null,
             level: null,
             selected: null,
         }

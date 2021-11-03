@@ -16,22 +16,23 @@ import { Spell } from '../types/spell';
 import { AvailableLocale, useAppI18n } from '../i18n';
 import { SearchFormType } from '../types/searchForm';
 import { localStorageGet } from '../helpers/localstorage';
+import { School } from '../types/schools';
 
 let spellList: Spell[] = [];
 
 const { locale } = useAppI18n()
 
 const byTextContains = (text: string, contains: string) => text?.toLowerCase().includes(contains?.toLowerCase())
-const byName = (spell: Spell, name: string) => byTextContains(spell.name, name);
+const byKeyword = (spell: Spell, keyword: string) => byTextContains(spell.name, keyword) || byTextContains(spell.description, keyword);
 const byLevel = (spell: Spell, level: number | null) => level ? spell.level == level : true;
-const byDescription = (spell: Spell, description: string) => byTextContains(spell.description, description);
+const bySchool = (spell: Spell, school: School | null) => school ? spell.school.includes(school) : true; // FIXME : Replace with == when ritual field is added
 const isSelected = (spell: Spell, selected: boolean | null) => selected == undefined ? true : (spell.selected ?? false) === selected;
 
 function search(form: SearchFormType) {
 	spells.value = spellList.filter(s => 
-		byName(s, form.name) 
+		byKeyword(s, form.keyword) 
 		&& byLevel(s, form.level) 
-		&& byDescription(s, form.description) 
+		&& bySchool(s, form.school) 
 		&& isSelected(s, form.selected)
 	)
 }
