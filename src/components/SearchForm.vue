@@ -15,6 +15,7 @@
             <label for="school">{{t('searchForm.fields.school')}}</label>
             <select name="school" id="school" v-model="form.school">
                 <option v-for="school in schools" :value="school">{{t(`schools.${school}`)}}</option>
+                <option :value="null">{{t('searchForm.fields.anySchool')}}</option>
             </select>
         </div>
 

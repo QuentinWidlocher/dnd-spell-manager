@@ -8,6 +8,7 @@ export const fr: I18N = {
       keyword: 'Mots clés',
       level: 'Niveau',
       school: 'École',
+      anySchool: 'Toutes les écoles',
       select: {
         selected: 'Seulement les sorts sélectionnés',
         notSelected: 'Seulement les sorts non sélectionnés',

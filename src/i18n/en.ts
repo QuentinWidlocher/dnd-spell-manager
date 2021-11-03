@@ -8,6 +8,7 @@ export const en: I18N = {
       keyword: 'Keywords',
       level: 'Level',
       school: 'School',
+      anySchool: 'Any school',
       select: {
         selected: 'Only selected spells',
         notSelected: 'Only not selected spells',

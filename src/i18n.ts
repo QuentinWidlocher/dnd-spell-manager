@@ -12,6 +12,7 @@ export type I18N = {
       keyword: string
       level: string
       school: string
+      anySchool: string
       select: {
         selected: string
         notSelected: string
