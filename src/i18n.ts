@@ -16,15 +16,21 @@ export type I18N = {
         all: string
       }
     }
-  },
+  }
   spellCard: {
-    castingTime: string,
-    range: string,
-    duration: string,
+    castingTime: string
+    range: string
+    duration: string
     components: string
-  },
+  }
   settings: {
     lang: string
+  }
+  pwa: {
+    offlineReady: string
+    reloadPrompt: string
+    reload: string
+    close: string
   }
 }
 
@@ -47,10 +53,16 @@ const en: I18N = {
     castingTime: 'Casting time',
     range: 'Range',
     duration: 'Duration',
-    components: 'Components'
+    components: 'Components',
   },
   settings: {
     lang: 'Language',
+  },
+  pwa: {
+    offlineReady: 'Application ready to work offline',
+    reloadPrompt: 'New content available, click on reload button to update.',
+    reload: 'Reload application',
+    close: 'Close',
   },
 }
 
@@ -70,13 +82,20 @@ const fr: I18N = {
     },
   },
   spellCard: {
-    castingTime: 'Temps d\'incantation',
+    castingTime: "Temps d'incantation",
     range: 'Portée',
     duration: 'Durée',
-    components: 'Composantes'
+    components: 'Composantes',
   },
   settings: {
     lang: 'Langage',
+  },
+  pwa: {
+    offlineReady: "L'application peux désormais fonctionner hors ligne.",
+    reloadPrompt:
+      "Une mise à jour est disponible, redémarrer l'application pour en bénéficier.",
+    reload: "Redémarrer l'application",
+    close: 'Fermer',
   },
 }
 

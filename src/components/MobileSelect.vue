@@ -23,9 +23,7 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import "swiper/css/effect-cards"
 
-import {
-  EffectCards, Virtual
-} from 'swiper';
+import { Virtual } from 'swiper';
 import { ref } from 'vue';
 import { SearchFormType } from '../types/searchForm';
 

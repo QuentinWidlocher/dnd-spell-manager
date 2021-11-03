@@ -19,10 +19,12 @@
 			</div>
 		</footer>
 	</div>
+	<ReloadPrompt/>
 </template>
 
 <script setup lang="ts">
 import './style.css'
+import ReloadPrompt from './components/ReloadPrompt.vue';
 
 </script>
 
