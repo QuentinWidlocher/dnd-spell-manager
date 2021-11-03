@@ -10,6 +10,7 @@ export interface Spell {
   components: string
   duration: string
   description: string
+  isRitual: boolean
   higherLevel?: string
   picture?: string
   selected?: boolean

@@ -39,5 +39,6 @@ export const en: I18N = {
     illusion: 'Illusion',
     necromancy: 'Necromancy',
     transmutation: 'Transmutation',
+    ritual: 'Ritual'
   },
 }

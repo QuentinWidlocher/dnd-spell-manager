@@ -43,6 +43,7 @@ export type I18N = {
     illusion: string
     necromancy: string
     transmutation: string
+    ritual: string
   }
 }
 

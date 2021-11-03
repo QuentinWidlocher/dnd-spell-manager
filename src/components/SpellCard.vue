@@ -8,7 +8,7 @@
 				</h1>
 				<div class="w-full">
 					<h1 class="font-bold text-xl my-0 text-red-800">{{ spell.name }}</h1>
-					<h2 class="text-red-900">{{ t(`schools.${spell.school}`) }}</h2>
+					<h2 class="text-red-900">{{ t(`schools.${spell.school}`) }}{{spell.isRitual ? ` (${t('schools.ritual')})` : ''}}</h2>
 				</div>
 				<div class="img-wrapper ">
 					<img class="" :src="spell.picture" alt="" />
