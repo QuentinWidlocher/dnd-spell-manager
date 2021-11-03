@@ -28,10 +28,11 @@ const emit = defineEmits<{
 }
 
 .drawer.closed {
-    transform: translateY(calc(100% - 3rem - 4rem));
+    /* We use translate3d because it uses the GPU on mobile */
+    transform: translate3d(0, calc(100% - 3rem - 4rem), 0);
 }
 
 .drawer.opened {
-    transform: translateY(-4rem);
+    transform: translate3d(0, -4rem, 0);
 }
 </style>
