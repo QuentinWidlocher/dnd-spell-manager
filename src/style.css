@@ -16,11 +16,11 @@ body {
 
 input.input,
 select {
-  @apply border px-2 py-1 rounded border-gray-400 focus:ring-0 focus:border-blue-500;
+  @apply border px-2 py-1 rounded border-gray-400 focus:ring-0 focus:border-primary-500;
 }
 
 input.radio[type='radio'] {
-  @apply rounded-full ring-0 text-blue-500 outline-none focus-visible:ring;
+  @apply rounded-full ring-0 text-primary-500 outline-none focus-visible:ring;
 }
 
 .form-group {

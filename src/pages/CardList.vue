@@ -1,12 +1,14 @@
 <template>
-    <template v-if="spells?.length != undefined">
-		<template v-if="isDesktop">
-			<DesktopSelect :spells="spells" @search="search" @select="selectSpell"></DesktopSelect>
+    <div class="h-full bg-paper-50">
+		<template v-if="spells?.length != undefined">
+			<template v-if="isDesktop">
+				<DesktopSelect :spells="spells" @search="search" @select="selectSpell"></DesktopSelect>
+			</template>
+			<template v-else>
+				<MobileSelect :spells="spells" @search="search" @select="selectSpell"></MobileSelect>
+			</template>
 		</template>
-		<template v-else>
-			<MobileSelect :spells="spells" @search="search" @select="selectSpell"></MobileSelect>
-		</template>
-	</template>
+	</div>
 </template>
 <script setup lang="ts">
 import MobileSelect from '../components/MobileSelect.vue'

@@ -26,8 +26,8 @@
         </div>
 
         <div class="ml-auto flex space-x-3 p-3 w-full sm:w-auto">
-            <button type="button" @click="clear()" class=" px-3 flex-grow py-1 rounded border border-blue-500 text-blue-500 hover:bg-blue-700 hover:text-white">{{t('searchForm.clear')}}</button>
-            <button type="submit" class="flex-grow px-3 py-1 rounded bg-blue-500 text-white hover:bg-blue-700">{{t('searchForm.search')}}</button>
+            <button type="button" @click="clear()" class=" px-3 flex-grow py-1 rounded border border-primary-500 text-primary-500 hover:bg-primary-700 hover:text-white">{{t('searchForm.clear')}}</button>
+            <button type="submit" class="flex-grow px-3 py-1 rounded bg-primary-500 text-white hover:bg-primary-700">{{t('searchForm.search')}}</button>
         </div>
     </div>
 </form>

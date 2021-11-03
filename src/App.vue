@@ -4,7 +4,7 @@
 			<router-view></router-view>
 		</main>
 		<footer class="h-16 z-20">
-			<div class="bg-blue-100 text-blue-800 flex align-middle justify-center h-full">
+			<div class="bg-primary-100 text-primary-800 flex align-middle justify-center h-full">
 				<router-link to="/" class="button">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						<path transform="rotate(90 12 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
@@ -58,6 +58,6 @@ footer {
 }
 
 .router-link-active {
-	@apply text-white bg-blue-500;
+	@apply text-white bg-primary-500;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
-	<div v-if="spell" :class="[spell.selected && 'border-blue-500', 'border-4 border-transparent rounded-2xl p-px w-full h-full select-none']">
+	<div v-if="spell" :class="[spell.selected && 'border-primary-500', 'border-4 border-transparent rounded-2xl p-px w-full h-full select-none']">
 		<article class="p-1 w-full h-full border rounded-2xl shadow-md cursor-pointer">
-		<div class="border p-3 rounded-xl h-full flex flex-col">
+		<div class="bg-paper-300 bg-opacity-70 bg-blend-overlay p-3 rounded-xl h-full flex flex-col">
 			<div class="flex items-center">
-				<h1 class="mr-5 font-bold text-xl text-red-800 border-2 rounded-full border-red-800 p-3">
+				<h1 class="mr-5 font-bold text-xl text-red-800 border-2 border-red-800 level">
 					{{ spell.level }}
 				</h1>
 				<div class="w-full">
@@ -14,7 +14,7 @@
 					<img class="" :src="spell.picture" alt="" />
 				</div>
 			</div>
-			<ul class="my-5 w-full lg:w-2/3">
+			<ul class="text-paper-900 my-5 w-full lg:w-2/3">
 				<li>
 					<div class="flex">
 						<div class="w-1/2"><strong>{{t('spellCard.castingTime')}} :</strong></div>
@@ -40,7 +40,7 @@
 					</div>
 				</li>
 			</ul>
-			<p class="flex-grow overflow-y-auto" v-html="spell.description"></p>
+			<p class="text-paper-900 flex-grow overflow-y-auto" v-html="spell.description"></p>
 		</div>
 	</article>
 	</div>
@@ -63,10 +63,12 @@ article {
 	background: url("/card-bg.jpg");
 }
 
-article > div {
-    border: solid 1px #b09a87;
-    background-color: rgba(232, 216, 189, 0.66);
-    background-blend-mode: overlay;
+.level {
+	line-height: calc(2.5rem - 2px);
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    text-align: center;
+    border-radius: 100%;
 }
 
 .img-wrapper {
