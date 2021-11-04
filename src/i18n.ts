@@ -13,6 +13,8 @@ export type I18N = {
       level: string
       school: string
       anySchool: string
+      castingClass: string
+      anyClass: string
       select: {
         selected: string
         notSelected: string
@@ -45,6 +47,17 @@ export type I18N = {
     necromancy: string
     transmutation: string
     ritual: string
+  },
+  classes: {
+    artificer: string
+    bard: string
+    cleric: string
+    druid: string
+    paladin: string
+    ranger: string
+    sorcerer: string
+    warlock: string
+    wizard: string
   }
 }
 

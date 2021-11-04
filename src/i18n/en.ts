@@ -9,6 +9,8 @@ export const en: I18N = {
       level: 'Level',
       school: 'School',
       anySchool: 'Any school',
+      castingClass: 'Class',
+      anyClass: 'Any class',
       select: {
         selected: 'Only selected spells',
         notSelected: 'Only not selected spells',
@@ -40,6 +42,17 @@ export const en: I18N = {
     illusion: 'Illusion',
     necromancy: 'Necromancy',
     transmutation: 'Transmutation',
-    ritual: 'Ritual'
+    ritual: 'Ritual',
   },
+  classes: {
+    artificer: 'Artificer',
+    bard: 'Bard',
+    cleric: 'Cleric',
+    druid: 'Druid',
+    paladin: 'Paladin',
+    ranger: 'Ranger',
+    sorcerer: 'Sorcerer',
+    warlock: 'Warlock',
+    wizard: 'Wizard',
+  }
 }

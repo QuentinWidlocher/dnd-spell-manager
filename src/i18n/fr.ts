@@ -9,6 +9,8 @@ export const fr: I18N = {
       level: 'Niveau',
       school: 'École',
       anySchool: 'Toutes les écoles',
+      castingClass: 'Classe',
+      anyClass: 'Toutes les classes',
       select: {
         selected: 'Seulement les sorts sélectionnés',
         notSelected: 'Seulement les sorts non sélectionnés',
@@ -43,4 +45,15 @@ export const fr: I18N = {
     transmutation: 'Transmutation',
     ritual: 'Rituel'
   },
+  classes: {
+    artificer: 'Artificier',
+    bard: 'Barde',
+    cleric: 'Clerc',
+    druid: 'Druide',
+    paladin: 'Paladin',
+    ranger: 'Rôdeur',
+    sorcerer: 'Ensorceleur',
+    warlock: 'Occultiste',
+    wizard: 'Magicien'
+  }
 }

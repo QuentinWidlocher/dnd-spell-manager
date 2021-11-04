@@ -14,8 +14,16 @@
         <div class="form-group">
             <label for="school">{{t('searchForm.fields.school')}}</label>
             <select name="school" id="school" v-model="form.school">
-                <option v-for="school in schools" :value="school">{{t(`schools.${school}`)}}</option>
                 <option :value="null">{{t('searchForm.fields.anySchool')}}</option>
+                <option v-for="school in schools" :value="school">{{t(`schools.${school}`)}}</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="castingClass">{{t('searchForm.fields.castingClass')}}</label>
+            <select name="castingClass" id="castingClass" v-model="form.castingClass">
+                <option :value="null">{{t('searchForm.fields.anyClass')}}</option>
+                <option v-for="castingClass in classes" :value="castingClass">{{t(`classes.${castingClass}`)}}</option>
             </select>
         </div>
 
@@ -38,14 +46,16 @@ import { localStorageGet } from '../helpers/localstorage';
 import { useAppI18n } from '../i18n';
 import { SearchFormType } from '../types/searchForm';
 import { schools } from '../types/schools'
+import { classes } from '../types/classes'
 
 const { t } = useAppI18n()
 
-const defaultForm = {
+const defaultForm: SearchFormType = {
             keyword: '',
             school: null,
             level: null,
             selected: null,
+            castingClass: null,
         }
 
 const form = ref<SearchFormType>({...defaultForm})

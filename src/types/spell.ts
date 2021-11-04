@@ -1,3 +1,4 @@
+import { Class } from './classes';
 import { School } from './schools'
 
 export interface Spell {
@@ -11,6 +12,7 @@ export interface Spell {
   duration: string
   description: string
   isRitual: boolean
+  castedBy: Class[]
   higherLevel?: string
   picture?: string
   selected?: boolean

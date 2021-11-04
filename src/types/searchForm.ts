@@ -1,3 +1,4 @@
+import { Class } from './classes';
 import { School } from './schools'
 
 export interface SearchFormType {
@@ -5,4 +6,5 @@ export interface SearchFormType {
   level: number | null
   school: School | null
   selected: boolean | null
+  castingClass: Class | null
 }
