@@ -9,7 +9,7 @@ module.exports = {
                 'up-xl': '0 -20px 25px -5px rgba(0, 0, 0, 0.1), 0 -10px 10px -5px rgba(0, 0, 0, 0.04)'
             },
             colors: {
-                primary: colors.purple,
+                primary: colors.amber,
                 paper: {
                     900: '#433c32',
                     800: '#786950',
@@ -22,9 +22,23 @@ module.exports = {
                     100: '#f5eee2',
                     50: '#fcfaf6',
                     
+                },
+                wood: {
+                    900: "#38322c",
+                    800: "#4e443b",
+                    700: "#63564a",
+                    600: "#786859",
+                    500: "#8d7967",
+                    400: "#a28b76",
+                    300: "#b79c85",
+                    200: "#c5a88f",
+                    100: "#d3b398",
+                    50: "#e1bfa2",
+                    
                 }
             }
         },
+        
     },
     variants: {
         extend: {
