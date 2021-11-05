@@ -1,10 +1,12 @@
 <template>
-<div class="form-group">
-    <label for="lang">{{t('settings.lang')}}</label>
-    <select name="lang" id="lang" v-model="locale">
-        <option value="fr">Français</option>
-        <option value="en">English</option>
-    </select>
+<div class="bg-paper-50 h-full">
+    <div class="form-group">
+        <label for="lang">{{t('settings.lang')}}</label>
+        <select name="lang" id="lang" v-model="locale">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+        </select>
+    </div>
 </div>
 </template>
 <script setup lang="ts">

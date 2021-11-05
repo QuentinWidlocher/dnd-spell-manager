@@ -16,13 +16,33 @@ body {
 
 input.input,
 select {
-  @apply border px-2 py-1 rounded border-gray-400 focus:ring-0 focus:border-primary-500;
+  @apply border-2 px-2 py-1 rounded text-paper-800 border-wood-500 bg-paper-100 focus:ring-0 hover:border-primary-700;
 }
 
 input.radio[type='radio'] {
-  @apply rounded-full ring-0 text-primary-500 outline-none focus-visible:ring;
+  @apply rounded-full border-0 ring-0 text-wood-500 outline-none focus-visible:ring;
 }
 
 .form-group {
   @apply flex flex-col flex-wrap p-3 w-full sm:w-auto;
+}
+
+.form-group label {
+  @apply font-bold;
+}
+
+button.raised,
+a.raised {
+  @apply font-bold rounded px-3 py-2 text-white bg-wood-500;
+  box-shadow: inset 0px 3px 2px rgb(184, 151, 122),
+    inset 0px -3px 2px rgba(0, 0, 0, 0.2);
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+button.raised:active,
+a.raised:active {
+  @apply bg-wood-600;
+  box-shadow: inset 0px -3px 2px rgb(184, 151, 122),
+    inset 0px 3px 2px rgba(0, 0, 0, 0.2);
 }
