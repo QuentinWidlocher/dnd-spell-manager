@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full bg-paper-50">
+    <div class="h-full bg-paper-100">
 		<template v-if="spells?.length != undefined">
 			<template v-if="isDesktop">
 				<DesktopSelect :spells="spells" @search="search" @select="selectSpell"></DesktopSelect>

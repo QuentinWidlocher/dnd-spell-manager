@@ -1,10 +1,9 @@
 <template>
 	<div v-if="spell" :class="[spell.selected && 'border-primary-500', 'border-4 border-transparent rounded-2xl p-px w-full h-full select-none']">
-		<article class="p-1 w-full h-full border rounded-2xl shadow-md cursor-pointer">
-		<div class="bg-paper-300 bg-opacity-70 bg-blend-overlay p-3 rounded-xl h-full flex flex-col">
-			<div class="flex items-center">
-				<h1 class="mr-5 font-bold text-xl text-red-800 border-2 border-red-800 level">
-					{{ spell.level }}
+		<article class="paper-texture bg-paper-500 p-1 w-full h-full border rounded-2xl shadow-md cursor-pointer">
+			<div class="bg-paper-300 border-2 text-center border-paper-600 bg-opacity-70 bg-blend-overlay p-3 rounded-xl h-full flex flex-col align-middle">
+				<h1 class="level">
+						{{ spell.level }}
 				</h1>
 				<div class="w-full">
 					<h1 class="font-bold text-xl my-0 text-red-800">{{ spell.name }}</h1>
@@ -13,36 +12,35 @@
 				<div class="img-wrapper ">
 					<img class="" :src="spell.picture" alt="" />
 				</div>
+				<ul class="text-left text-paper-900 my-5 w-full lg:w-2/3">
+					<li>
+						<div class="flex">
+							<div class="w-1/2"><strong>{{t('spellCard.castingTime')}} :</strong></div>
+							<div class="w-1/2">{{ spell.castingTime }}</div>
+						</div>
+					</li>
+					<li>
+						<div class="flex">
+							<div class="w-1/2"><strong>{{t('spellCard.range')}} :</strong></div>
+							<div class="w-1/2">{{ spell.range }}</div>
+						</div>
+					</li>
+					<li>
+						<div class="flex">
+							<div class="w-1/2"><strong>{{t('spellCard.duration')}} :</strong></div>
+							<div class="w-1/2">{{ spell.duration }}</div>
+						</div>
+					</li>
+					<li>
+						<div class="flex">
+							<div class="w-1/2"><strong>{{t('spellCard.components')}} :</strong></div>
+							<div class="w-1/2 h-20 overflow-y-auto">{{ spell.components }}</div>
+						</div>
+					</li>
+				</ul>
+				<p class="text-left text-paper-900 flex-grow overflow-y-auto" v-html="spell.description"></p>
 			</div>
-			<ul class="text-paper-900 my-5 w-full lg:w-2/3">
-				<li>
-					<div class="flex">
-						<div class="w-1/2"><strong>{{t('spellCard.castingTime')}} :</strong></div>
-						<div class="w-1/2">{{ spell.castingTime }}</div>
-					</div>
-				</li>
-				<li>
-					<div class="flex">
-						<div class="w-1/2"><strong>{{t('spellCard.range')}} :</strong></div>
-						<div class="w-1/2">{{ spell.range }}</div>
-					</div>
-				</li>
-				<li>
-					<div class="flex">
-						<div class="w-1/2"><strong>{{t('spellCard.duration')}} :</strong></div>
-						<div class="w-1/2">{{ spell.duration }}</div>
-					</div>
-				</li>
-				<li>
-					<div class="flex">
-						<div class="w-1/2"><strong>{{t('spellCard.components')}} :</strong></div>
-						<div class="w-1/2 h-20 overflow-y-auto">{{ spell.components }}</div>
-					</div>
-				</li>
-			</ul>
-			<p class="text-paper-900 flex-grow overflow-y-auto" v-html="spell.description"></p>
-		</div>
-	</article>
+		</article>
 	</div>
 </template>
 
@@ -60,15 +58,19 @@ const { spell } = defineProps<{
 
 <style>
 article {
-	background: url("/card-bg.jpg");
+	@apply bg-paper-500;
+}
+
+article:before {
+	@apply -m-1 rounded-xl;
+}
+
+article > div {
+	z-index: 1;
 }
 
 .level {
-	line-height: calc(2.5rem - 2px);
-    min-height: 2.5rem;
-    min-width: 2.5rem;
-    text-align: center;
-    border-radius: 100%;
+	@apply font-bold text-3xl text-red-800 mx-auto my-3;
 }
 
 .img-wrapper {

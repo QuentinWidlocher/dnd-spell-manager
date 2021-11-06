@@ -1,5 +1,5 @@
 <template>
-<div class="bg-paper-50 h-full">
+<div class="bg-paper-200 h-full">
     <div class="form-group">
         <label for="lang">{{t('settings.lang')}}</label>
         <select name="lang" id="lang" v-model="locale">

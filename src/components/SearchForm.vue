@@ -1,5 +1,5 @@
 <template>
-<form class="w-full text-paper-900" @submit.prevent="search">
+<form class="w-full bg-paper-300 text-paper-900" @submit.prevent="search">
     <div class="flex flex-wrap w-full items-end">
         <div class="form-group">
             <label for="keyword">{{t('searchForm.fields.keyword')}}</label>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="ml-auto flex space-x-3 p-3 w-full sm:w-auto">
-            <button type="button" @click="clear()" class="raised flex-grow">{{t('searchForm.clear')}}</button>
+            <button type="button" @click="clear()" class="outline flex-grow">{{t('searchForm.clear')}}</button>
             <button type="submit" class="raised flex-grow">{{t('searchForm.search')}}</button>
         </div>
     </div>

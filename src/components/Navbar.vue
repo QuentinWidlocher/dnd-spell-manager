@@ -18,12 +18,6 @@
 </script>
 
 <style>
-.navbar {
-	box-shadow: 
-        inset 0px 3px 2px rgb(155, 134, 116),
-        0px -5px 5px rgba(0,0,0,0.2);
-}
-
 .button {
 	@apply p-5;
 }
