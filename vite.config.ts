@@ -8,7 +8,7 @@ export default defineConfig({
     vue(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'card-bg.jpg'],
+      includeAssets: ['favicon.ico', 'card-bg-2.png'],
       manifest: {
         name: 'D&D Spell Manager',
         short_name: 'Spell Manager',
@@ -16,7 +16,8 @@ export default defineConfig({
         lang: 'en-US',
         start_url: '/',
         display: 'standalone',
-        theme_color: '#3B82F6',
+        theme_color: '#8a6747',
+        background_color: '#f5eee2',
         icons: [
           {
             src: 'icon.png',
